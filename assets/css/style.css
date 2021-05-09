@@ -9,7 +9,7 @@
 }
 
 body {
-  background: rgb(230, 228, 228);
+  background: rgb(209, 208, 208);
   font-family: "Roboto", sans-serif;
 }
 
@@ -90,11 +90,20 @@ h1 {
 }
 
 .p-img2 {
-  width: 35%;
+  width: 40%;
   margin: 2rem auto 0;
 }
 
+.m-img {
+  width: 100%;
+  flex-shrink: 0;
+  align-self: center;
+}
+
 /* --------------------------------------Index 3 col layout */
+.img-bg {
+  background: rgba(45, 100, 172, 0.445);
+}
 
 .i-flex-parent {
   display: flex;
@@ -155,6 +164,7 @@ h1 {
 /* --------------------------------------Projects page 2 col layout */
 
 .p-flex-parent {
+  margin-top: 1rem;
   display: flex;
   align-items: flex-start;
   background: rgb(65, 77, 92);
@@ -187,6 +197,34 @@ h1 {
   min-width: 51rem;
   min-height: 30rem;
 }
+
+/* --------------------------------------Media page 2 col layout */
+
+.m-flex-parent {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.m-flex-child {
+  margin: 0.5rem;
+}
+
+.m-right {
+  display: flex;
+}
+
+.a-child {
+  margin: 1rem;
+}
+
+aside {
+  text-align: center;
+  line-height: 1.8;
+  margin-left: 1rem;
+  background: rgb(168, 168, 168);
+  align-self: flex-start;
+}
+
 /* -----------------------------------Footer styles------------------------------------- */
 
 footer {
