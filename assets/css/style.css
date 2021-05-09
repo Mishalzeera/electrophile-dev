@@ -25,6 +25,7 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all 150ms ease-in-out;
 }
 
 a:hover,
@@ -79,10 +80,65 @@ h1 {
 /* --------------------------------------Img */
 .index-img {
   width: 30%;
-  margin: 0 auto;
+  margin: 2rem auto 0;
 }
 
 /* --------------------------------------Index 3 col layout */
+
+.i-flex-parent {
+  display: flex;
+}
+
+.i-flex-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1rem;
+  padding: 2rem;
+  width: 100%;
+  background: rgb(168, 168, 168);
+  border-radius: 0.3rem;
+}
+
+.i-left {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.i-center {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cta-btn {
+  border: none;
+  align-self: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  background-color: rgb(50, 92, 146);
+  cursor: pointer;
+  margin-top: 3rem;
+  border-radius: 0.2rem;
+  transition: all 150ms ease-in-out;
+}
+
+.cta-btn:hover {
+  padding: 1rem 4.7rem;
+}
+
+.i-right {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.test-name {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
 
 /* -----------------------------------Footer styles------------------------------------- */
 
