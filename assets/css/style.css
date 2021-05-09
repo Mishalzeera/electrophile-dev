@@ -69,6 +69,11 @@ h1 {
   font-weight: 700;
 }
 
+.h-active {
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+}
+
 /* -----------------------------------Main content styles------------------------------------- */
 
 /* --------------------------------------Img */
@@ -76,6 +81,9 @@ h1 {
   width: 30%;
   margin: 0 auto;
 }
+
+/* --------------------------------------Index 3 col layout */
+
 /* -----------------------------------Footer styles------------------------------------- */
 
 footer {
