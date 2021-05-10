@@ -82,6 +82,19 @@ h1::before {
   border-right: 1px solid yellow;
 }
 
+/* -------------Header Media Query */
+
+@media (max-width: 1000px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-inner-list {
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+  }
+}
+
 /* -----------------------------------Main content styles------------------------------------- */
 
 /* --------------------------------------Img */
@@ -106,10 +119,12 @@ h1::before {
   align-self: center;
 }
 
-/* --------------------------------------Index 3 col layout */
 .img-bg {
   background: rgba(45, 100, 172, 0.445);
+  margin: 1rem;
 }
+
+/* --------------------------------------Index 3 col layout */
 
 .i-flex-parent {
   display: flex;
@@ -167,7 +182,13 @@ h1::before {
   text-transform: uppercase;
   opacity: 0.6;
 }
+/* -------------Index Media Query */
 
+@media (max-width: 1000px) {
+  .i-flex-parent {
+    flex-wrap: wrap;
+  }
+}
 /* --------------------------------------Projects page 2 col layout */
 
 .p-flex-parent {
