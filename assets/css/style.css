@@ -64,6 +64,7 @@ h1::before {
   display: flex;
 }
 .nav-list-item {
+  flex-shrink: 2;
   font-family: "Lekton", sans-serif;
   font-size: 1.5rem;
   margin-right: 3em;
@@ -82,7 +83,9 @@ h1::before {
   border-right: 1px solid yellow;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
 /* -------------Header Media Query */
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 1000px) {
   header {
@@ -90,8 +93,14 @@ h1::before {
     justify-content: center;
   }
   .nav-inner-list {
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-list-item {
+    font-size: 1.2rem;
   }
 }
 
@@ -182,7 +191,10 @@ h1::before {
   text-transform: uppercase;
   opacity: 0.6;
 }
+
+/* ---------------------------------------------------------------------------------------------------------------- */
 /* -------------Index Media Query */
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 1000px) {
   .i-flex-parent {
@@ -215,19 +227,40 @@ h1::before {
 }
 
 .p-text2 {
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding: 2.5rem;
 }
 .p-vid {
-  flex-basis: 55%;
+  /* flex-basis: 55%; */
 }
 .emb-vid {
   min-width: 51rem;
   min-height: 30rem;
 }
 
-/* --------------------------------------Media page 2 col layout */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* -------------Projects Media Query */
+/* ---------------------------------------------------------------------------------------------------------------- */
 
+@media (max-width: 1150px) {
+  .p-flex-parent {
+    flex-wrap: wrap;
+  }
+  .p-flex-child {
+    flex-grow: 1;
+  }
+  .emb-vid {
+    width: auto;
+  }
+  .p-text2 {
+    display: none;
+  }
+  .p-vid {
+    order: -1;
+  }
+}
+
+/* --------------------------------------Media page 2 col layout */
 .m-flex-parent {
   margin-top: 0.5rem;
   display: flex;
@@ -375,4 +408,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 500px) {
+  footer {
+    font-size: 3rem;
+  }
 }
