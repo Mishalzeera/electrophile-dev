@@ -133,6 +133,10 @@ h1::before {
   margin: 1rem;
 }
 
+.img-bg2 {
+  background: rgba(45, 100, 172, 0.445);
+}
+
 /* --------------------------------------Index 3 col layout */
 
 .i-flex-parent {
@@ -286,7 +290,37 @@ aside {
   margin-left: 1rem;
   background: rgb(168, 168, 168);
   align-self: flex-start;
-  max-width: 70%;
+  max-width: 60%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* -------------Media page Media Query */
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+  .m-p2 {
+    display: none;
+  }
+  .m-p1 {
+    display: unset;
+  }
+}
+
+@media (max-width: 800px) {
+  .m-flex-parent {
+    flex-direction: column;
+  }
+
+  #vid2,
+  #vid3 {
+    display: none;
+  }
+  .m-p1 {
+    display: none;
+  }
+  .m-p2 {
+    display: unset;
+  }
 }
 
 /* --------------------------------------Contact page 2 col layout */
