@@ -423,9 +423,46 @@ textarea {
   transition: all 300ms ease-in-out;
 }
 
-.contact-btn:hover {
+.contact-btn:hover,
+.contact-btn:focus {
   background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
   color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* -------------Media page Media Query */
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .c-flex-parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .c-left {
+    max-width: unset;
+  }
+
+  .c-right {
+    order: -1;
+  }
+  form {
+    display: block;
+    min-height: unset;
+
+    margin-bottom: 2rem;
+  }
+
+  .labels-flex {
+    flex-direction: column;
+  }
+  form * {
+    max-width: 85%;
+  }
+
+  textarea {
+    width: unset;
+    height: unset;
+  }
 }
 
 /* -----------------------------------Footer styles------------------------------------- */
