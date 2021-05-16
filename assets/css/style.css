@@ -183,7 +183,8 @@ h1::before {
     font-family: inherit;
     font-size: 1.5rem;
     padding: .5rem 3rem;
-    background-color: rgb(50, 92, 146);
+    
+    background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
     cursor: pointer;
     margin-top: 1rem;
     border-radius: 0.2rem;
@@ -192,7 +193,8 @@ h1::before {
 
 .cta-btn:hover {
     padding: .5rem 3.5rem;
-    background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
+    
+    background-color: rgb(50, 92, 146);
 }
 
 
@@ -230,10 +232,15 @@ h1::before {
 /* ---------------------------------------------------------------------------------------------------------------- */
 /* -------------Index Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
+
 @media (max-width: 1000px) {
     .i-flex-parent {
         flex-wrap: wrap;
     }
+    .i-about-us {order: 0;}
+    .i-testim {order: 1;}
+    .i-sign-up {order: 2;}
+
 }
 
 /* --------------------------------------About Us page 2 col layout */
@@ -289,9 +296,9 @@ margin-bottom: 1rem;
         /* width: auto; */
     }
 
-    .p-text2 {
+    /* .p-text2 {
         display: none;
-    }
+    } */
 
     .p-vid {
         order: -1;
@@ -332,14 +339,14 @@ margin-bottom: 1rem;
 aside {
     color: #222;
     text-align: center;
-    padding: 0 .7rem;
+    padding: 0 1rem 5rem;;
     line-height: 1.8;
     letter-spacing: 1px;
     font-weight: 300;
     margin-left: 1rem;
     background: rgb(168, 168, 168);
     align-self: flex-start;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 #new-yorker {
@@ -348,6 +355,7 @@ aside {
     font-weight: bold;
     display: inline-block;
     padding: 1rem;
+    
     color: #222;;
     transition: all 350ms ease-in-out;
     
@@ -389,6 +397,9 @@ aside {
     .m-right {
         order: -1;
     }
+}
+@media (max-width: 500px) {
+aside { max-width: 90%;}
 }
 
 /* --------------------------------------Contact page 2 col layout */
@@ -450,6 +461,7 @@ form {
 }
 
 label {
+    color: #222;
     opacity: 0.8;
 }
 
@@ -554,6 +566,25 @@ textarea {
     .contact-btn {
         max-width: 15rem;
     }
+}
+
+/* -------------------------------------Webinar signup page */
+
+.web-h2 {
+    font-weight: 400;
+    color: #222;
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+
+
+.a-web-pad {
+    padding: 2rem 3rem;
+}
+
+.img-web {
+    margin-top: 3rem;
 }
 
 /* -----------------------------------Footer styles------------------------------------- */
