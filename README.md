@@ -79,7 +79,7 @@ After building the site and getting it responsive-ish - it became clear that the
 
 ### Things I could do better next time
 
-Despite my intention being to build a mobile first site, I built the desktop view first. I regretted that as I felt my code was less compact than it could have been. Also the heirarchical structures of Flexbox is so much more intuitive when mobile-first. At least, it seems to me at this early point in my learning. I am considering whether to rebuild the site in that way, on a different branch and then compare later.
+Despite my intention being to build a mobile first site, I built the desktop view first. I regretted that as I felt my code was less compact than it could have been. Also the heirarchical structures of Flexbox is so much more intuitive when mobile-first. At least, it seems to me at this early point in my learning. I am considering whether to rebuild the site in that way, on a different branch and then compare later. (Update, lesson learned - its a total mess trying to reverse it. Not worth the time.)
 
 ### External video sizing issue
 
@@ -87,4 +87,4 @@ The most stubborn detail I have at this stage is getting the video player to beh
 
 [Hasan Armstrong solution for responsive iFrame player](https://www.youtube.com/watch?v=QG7JQkeaJy4)
 
-The solution is to create a wrapper class with a position of relative, then position the iframe element as absolute. Top0 Left0 Width100% but most importantly, a padding-top of 56.25% which precisely constrains the default 16:9 Youtube video proportions. Use Vivo, more attractive. 
+The solution is to create a wrapper class with a position of relative, then position the iframe element as absolute. Top0 Left0 Width100% but most importantly, a padding-top of 56.25% which precisely constrains the default 16:9 Youtube video proportions. Use Vivo, more attractive.
