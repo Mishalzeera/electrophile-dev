@@ -13,6 +13,8 @@ body {
 }
 
 img {
+    border-left: 1rem solid rgb(209, 208, 208);
+    border-right: 1rem solid rgb(209, 208, 208);
     max-width: 100%;
     display: block;
 }
@@ -34,6 +36,7 @@ a:focus {
 
 /* -----------------------------------Header styles------------------------------------- */
 header {
+    
     background: rgb(168, 168, 168);
     min-height: 6rem;
     display: flex;
@@ -127,12 +130,11 @@ h1::before {
 }
 
 .img-bg {
-    background: rgba(45, 100, 172, 0.445);
-    margin: 1rem;
+    background: rgb(65, 77, 92);    margin: 1rem;
 }
 
 .img-bg2 {
-    background: rgba(45, 100, 172, 0.445);
+    background: rgb(65, 77, 92); 
 }
 
 /* --------------------------------------Index 3 col layout */
@@ -181,8 +183,8 @@ h1::before {
     border: none;
     align-self: flex-end;
     font-family: inherit;
-    font-size: 1.5rem;
-    padding: .5rem 3rem;
+    font-size: 1rem;
+    padding: 0rem 1rem;
     
     background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
     cursor: pointer;
@@ -192,7 +194,7 @@ h1::before {
 }
 
 .cta-btn:hover {
-    padding: .5rem 3.5rem;
+    padding: 0rem 1.2rem;
     
     background-color: rgb(50, 92, 146);
 }
