@@ -576,7 +576,7 @@ textarea {
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
-/* -------------------------------------Webinar signup page (accessed by index Join Us btn) */
+/* -------------------------------------Webinar signup page (index pg > Join Us btn) */
 .web-h2 {
     font-weight: 400;
     color: #222;
@@ -584,12 +584,20 @@ textarea {
     text-align: center;
 }
 
+.web-btn {
+    width: 10rem;
+    padding: unset;
+    display: flex;
+    justify-content: center;
+}
+
 .a-web-pad {
     padding: 0rem 3rem;
 }
 
-.web-btn {
-    width: 10%;
+.web-btn a {
+    /* font-size: 1rem;
+    padding: 3rem 3rem; */
 }
 
 .img-web {
@@ -600,6 +608,11 @@ textarea {
     .webinar-form {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    .web-btn {
+        font-size: 1rem;
+        padding: .5rem 0;
     }
 }
 
