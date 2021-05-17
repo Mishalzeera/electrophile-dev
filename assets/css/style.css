@@ -139,7 +139,7 @@ h1::before {
 .iframe-wrapper {
   position: relative;
   padding-top: 56.25%;
-  margin-bottom: 1rem;
+  margin: 0.5rem auto;
 }
 
 .emb-vid {
