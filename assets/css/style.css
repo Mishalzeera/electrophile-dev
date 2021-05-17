@@ -283,6 +283,7 @@ h1::before {
   margin: 1rem;
   line-height: 1.5;
   font-size: 1.1rem;
+  align-self: stretch;
 }
 
 .about-text {
@@ -299,6 +300,11 @@ h1::before {
   font-size: 1.4rem;
   margin-bottom: 1rem;
   padding: 2rem;
+}
+
+.about-vid {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* -------------About Us Media Query */
