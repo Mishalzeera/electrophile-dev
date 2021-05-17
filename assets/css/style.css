@@ -129,10 +129,9 @@ h1::before {
 }
 
 .img-bg {
-  background: rgb(65, 77, 92);
   margin: 0.5rem;
 }
-
+.img-bg,
 .img-bg2 {
   background: rgb(65, 77, 92);
 }
@@ -176,12 +175,12 @@ h1::before {
 
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Main page */
-.i-flex-parent {
+.main-flex-parent {
   display: flex;
   justify-content: space-evenly;
 }
 
-.i-flex-child {
+.main-flex-child {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -189,10 +188,9 @@ h1::before {
   padding: 2rem;
   width: 100%;
   background: rgb(168, 168, 168);
-  /* border-radius: 0.3rem; */
 }
 
-.i-about-us {
+.main-about-us {
   color: #222;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -200,7 +198,7 @@ h1::before {
   order: 1;
 }
 
-.i-sign-up {
+.main-sign-up {
   opacity: 0.85;
   line-height: 1.8;
   font-weight: 300;
@@ -233,7 +231,7 @@ h1::before {
   background-color: rgb(50, 92, 146);
 }
 
-.i-testim {
+.main-testim {
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -253,19 +251,19 @@ h1::before {
 /* -------------Main Page Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1000px) {
-  .i-flex-parent {
+  .main-flex-parent {
     flex-wrap: wrap;
   }
 
-  .i-about-us {
+  .main-about-us {
     order: 0;
   }
 
-  .i-testim {
+  .main-testim {
     order: 1;
   }
 
-  .i-sign-up {
+  .main-sign-up {
     order: 2;
     text-align: center;
   }
