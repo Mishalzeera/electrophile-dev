@@ -271,21 +271,21 @@ h1::before {
 
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------About Us page */
-.p-flex-parent {
+.about-flex-parent {
   margin: 0.5rem;
   display: flex;
   align-items: flex-start;
   background: rgb(65, 77, 92);
 }
 
-.p-flex-child {
+.about-flex-child {
   width: 100%;
   margin: 1rem;
   line-height: 1.5;
   font-size: 1.1rem;
 }
 
-.p-text {
+.about-text {
   color: #222;
   padding: 2rem;
   line-height: 1.6;
@@ -294,7 +294,7 @@ h1::before {
   background: rgb(168, 168, 168);
 }
 
-.p-text2 {
+.about-text2 {
   color: #222;
   font-size: 1.4rem;
   margin-bottom: 1rem;
@@ -304,20 +304,20 @@ h1::before {
 /* -------------About Us Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 600px) {
-  .p-flex-parent {
+  .about-flex-parent {
     flex-wrap: wrap;
   }
 
-  .p-flex-child {
+  .about-flex-child {
     flex-grow: 1;
   }
 
-  .p-text {
+  .about-text {
     margin-top: unset;
     padding: 1rem;
   }
 
-  .p-vid {
+  .about-vid {
     order: -1;
     margin-bottom: unset;
   }
