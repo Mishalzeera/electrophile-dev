@@ -21,8 +21,6 @@ body {
 }
 
 img {
-  border-left: 0.25rem solid rgb(231, 229, 229);
-  border-right: 0.25rem solid rgb(231, 229, 229);
   max-width: 100%;
   display: block;
 }
@@ -113,11 +111,15 @@ h1::before {
 .index-img,
 .p-img,
 .p-img2 {
+  border-left: 0.25rem solid rgb(231, 229, 229);
+  border-right: 0.25rem solid rgb(231, 229, 229);
   width: 40%;
   margin: 1rem auto 0;
 }
 
 .m-img {
+  border-left: 0.25rem solid rgb(231, 229, 229);
+  border-right: 0.25rem solid rgb(231, 229, 229);
   opacity: 0.9;
   width: 100%;
   flex-shrink: 0;
@@ -148,9 +150,32 @@ h1::before {
   width: 100%;
   height: 100%;
 }
-
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Index page */
+
+.hidden-header {
+  background: black;
+  color: black;
+}
+
+.hidden-header a:hover {
+  color: black;
+  cursor: unset;
+}
+
+.img-dark-bg {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  padding: 1rem 0;
+}
+.img-dark {
+  margin: 0 auto;
+  width: 40%;
+}
+
+/* -------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------Main page */
 .i-flex-parent {
   display: flex;
   justify-content: space-evenly;
@@ -225,7 +250,7 @@ h1::before {
   letter-spacing: 1px;
 }
 
-/* -------------Index Media Query */
+/* -------------Main Page Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1000px) {
   .i-flex-parent {
@@ -247,7 +272,7 @@ h1::before {
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
-/* --------------------------------------About Us page 2 */
+/* --------------------------------------About Us page */
 .p-flex-parent {
   margin: 0.5rem;
   display: flex;
