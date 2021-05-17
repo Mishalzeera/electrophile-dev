@@ -154,19 +154,19 @@ h1::before {
 /* --------------------------------------Index page */
 
 .hidden-header {
-  background: black;
-  color: black;
+  background: #070707;
+  color: #070707;
 }
 
 .hidden-header a:hover {
-  color: black;
+  color: #070707;
   cursor: unset;
 }
 
 .img-dark-bg {
   height: 100vh;
   width: 100vw;
-  background: black;
+  background: #070707;
   padding: 1rem 0;
 }
 .img-dark {
