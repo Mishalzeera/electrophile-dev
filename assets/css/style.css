@@ -15,6 +15,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
 img {
     border-left: 0.25rem solid rgb(231, 229, 229);
     border-right: 0.25rem solid rgb(231, 229, 229);
@@ -237,6 +242,7 @@ h1::before {
 
     .i-sign-up {
         order: 2;
+        text-align: center;
     }
 }
 
@@ -247,7 +253,6 @@ h1::before {
     display: flex;
     align-items: flex-start;
     background: rgb(65, 77, 92);
-    /* padding: 1rem; */
 }
 
 .p-flex-child {
@@ -366,7 +371,7 @@ aside {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .m-flex-parent {
         flex-direction: column;
     }
@@ -491,9 +496,9 @@ textarea {
     flex-shrink: 1;
 }
 
-.contact-btn {
+.btn {
     color: rgb(209, 208, 208);
-    width: 30%;
+    width: 25%;
     font-family: inherit;
     font-size: 1.2rem;
     padding: 0.5rem 2rem;
@@ -504,8 +509,8 @@ textarea {
     transition: all 300ms ease-in-out;
 }
 
-.contact-btn:hover,
-.contact-btn:focus {
+.btn:hover,
+.btn:focus {
     background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
     color: white;
 }
@@ -583,6 +588,10 @@ textarea {
     padding: 0rem 3rem;
 }
 
+.web-btn {
+    width: 10%;
+}
+
 .img-web {
     margin-top: 3rem;
 }
@@ -594,7 +603,7 @@ textarea {
     }
 }
 
-/* -----------------------------------Footer styles------------------------------------- */
+/* -----------------------------------Footer styles-------------------------------------*/
 footer {
     color: #111;
     font-family: "Libre Barcode 128 Text", sans-serif;
