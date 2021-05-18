@@ -88,3 +88,32 @@ The most stubborn detail I have at this stage is getting the video player to beh
 [Hasan Armstrong solution for responsive iFrame player](https://www.youtube.com/watch?v=QG7JQkeaJy4)
 
 The solution is to create a wrapper class with a position of relative, then position the iframe element as absolute. Top0 Left0 Width100% but most importantly, a padding-top of 56.25% which precisely constrains the default 16:9 Youtube video proportions. Use Vivo, more attractive.
+
+## Second Build
+
+After living with the content for a week, the purpose of the site and the approach to the content became clear. Previously I had been operating on a mental level. Things became cohesive and instinctual when I decided that an Edison bulb should be the central visual focus of my site. Adding textual content also provided a sense of direction that I needed for this project. I can see very easily how important it is to have clients who know what they want. Without that clarity, something is always missing.
+
+A totally dark landing page with a b/w bulb that turns on when you click it gets you into the main page of the site. I liked that feeling of interactivity along with the cohesion of the company purpose.
+
+![Landing page](assets/imgs/wframe-imgs/2dark-landing.png)
+![Main page](assets/imgs/wframe-imgs/2main-page.png)
+
+## Thoughts after my mentor session
+
+Finally I had some feedback on what I was doing, which immediately clarified many things for me. Other than some margin issues, technically the site was in working shape. However, the need for simplifying things became apparent as we discussed the site. I became aware of the mental impression I had that there has to be a lot of "stuff" in order for it to be a proper website.
+
+I got a good sense of which design choices I made that were good, and which were not good. A sense of narrowing down the vision for the site took place, and now as I begin to revise the site I feel clear about what I need to do.
+
+**Some examples of the clutter**
+
+I was convinced I needed lots of video media, but my mentor assured me that a company like the one I am pretending to own wouldn't do things that way.
+
+![Way too much stuff](assets/imgs/wframe-imgs/2media-page.png)
+
+Already the messy Youtube functionality distracts and impedes the visual flow. I will limit the video media to a single one, and will try Vivo or Vimeo since I find the Youtube styling ugly.
+
+**Looking at my peers work**
+
+On the Slack channel there were a few really good examples that inspired me to commit further to the visual elements that I like for my site. In particular, Daphne Heimgartners "Follow The Moon" page, at https://daph1986.github.io/Follow-the-moon/ - really helped it click for my way of thinking.
+
+I am learning that the images, colours and fonts should be allowed to have all they need to speak clearly, and keep the text content to the necessary function. The text content and visuals should work in harmony, guiding the end user to whatever desired action while informing them on deeper levels what the site owners creative values are.
