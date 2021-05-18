@@ -1,7 +1,19 @@
 /* ------------------------------------------------------------------------------------ */
 /* ----------------------------------Global styles------------------------------------- */
 /* ------------------------------------------------------------------------------------ */
+
 @import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Libre+Barcode+128+Text&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --hidden-header-colour: #070707;
+  --body-light-colour: rgb(231, 229, 229);
+  --body-dark-colour: rgb(65, 77, 92);
+  --header-footer-colour: rgb(168, 168, 168);
+  --black: #222;
+  --more-black: rgb(15, 15, 15);
+  --hover-colour: rgb(50, 92, 146);
+  --divide-border: rgba(255, 255, 0, 0.288);
+}
 
 * {
   margin: 0;
@@ -10,8 +22,7 @@
 }
 
 body {
-  /* background: rgb(209, 208, 208); */
-  background: rgb(231, 229, 229);
+  background: var(--body-light-colour);
   font-family: "Roboto", sans-serif;
 }
 
@@ -32,13 +43,13 @@ a {
 
 a:hover,
 a:focus {
-  color: rgb(50, 92, 146);
+  color: var(--hover-colour);
 }
 
 /* -----------------------------------Header styles------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
 header {
-  background: rgb(168, 168, 168);
+  background: var(--header-footer-colour);
   min-height: 6rem;
   display: flex;
   justify-content: space-between;
@@ -114,15 +125,15 @@ h1::before {
 .index-img,
 .p-img,
 .p-img2 {
-  border-left: 0.25rem solid rgb(231, 229, 229);
-  border-right: 0.25rem solid rgb(231, 229, 229);
+  border-left: 0.25rem solid var(--body-light-colour);
+  border-right: 0.25rem solid var(--body-light-colour);
   width: 40%;
   margin: 1rem auto 0;
 }
 
 .m-img {
-  border-left: 0.25rem solid rgb(231, 229, 229);
-  border-right: 0.25rem solid rgb(231, 229, 229);
+  border-left: 0.25rem solid var(--body-light-colour);
+  border-right: 0.25rem solid var(--body-light-colour);
   opacity: 0.9;
   width: 100%;
   flex-shrink: 0;
@@ -136,7 +147,7 @@ h1::before {
 }
 .img-bg,
 .img-bg2 {
-  background: rgb(65, 77, 92);
+  background: var(--body-dark-colour);
 }
 
 .iframe-wrapper {
@@ -156,19 +167,19 @@ h1::before {
 /* --------------------------------------Index page */
 
 .hidden-header {
-  background: #070707;
-  color: #070707;
+  background: var(--hidden-header-colour);
+  color: var(--hidden-header-colour);
 }
 
 .hidden-header a:hover {
-  color: #070707;
+  color: var(--hidden-header-colour);
   cursor: unset;
 }
 
 .img-dark-bg {
   height: 100vh;
   width: 100vw;
-  background: #070707;
+  background: var(--hidden-header-colour);
   padding: 1rem 0;
 }
 .img-dark {
@@ -190,11 +201,11 @@ h1::before {
   margin: 0 0.5rem 0.5rem;
   padding: 2rem;
   width: 100%;
-  background: rgb(168, 168, 168);
+  background: var(--header-footer-colour);
 }
 
 .main-about-us {
-  color: #222;
+  color: var(--black);
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
@@ -212,7 +223,7 @@ h1::before {
 
 #its-free {
   font-weight: bolder;
-  color: rgb(50, 92, 146);
+  color: var(--hover-colour);
 }
 
 .cta-btn {
@@ -231,7 +242,7 @@ h1::before {
 
 .cta-btn:hover {
   padding: 0rem 1.2rem;
-  background-color: rgb(50, 92, 146);
+  background-color: var(--hover-colour);
 }
 
 .main-testim {
@@ -278,7 +289,7 @@ h1::before {
   margin: 0.5rem;
   display: flex;
   align-items: flex-start;
-  background: rgb(65, 77, 92);
+  background: var(--body-dark-colour);
 }
 
 .about-flex-child {
@@ -295,11 +306,11 @@ h1::before {
   line-height: 1.6;
   text-align: center;
   flex-basis: 45%;
-  background: rgb(168, 168, 168);
+  background: var(--header-footer-colour);
 }
 
 .about-text2 {
-  color: #222;
+  color: var(--black);
   font-size: 1.4rem;
   margin-bottom: 1rem;
   padding: 2rem;
@@ -350,7 +361,7 @@ h1::before {
 }
 
 .m-h2 {
-  border-bottom: 1px solid rgba(255, 255, 0, 0.288);
+  border-bottom: 1px solid var(--divide-border);
   font-size: 2.5rem;
 }
 
@@ -368,7 +379,7 @@ h1::before {
 }
 
 aside {
-  color: #222;
+  color: var(--black);
   text-align: center;
   padding: 0 1rem 5rem;
   line-height: 1.8;
@@ -376,7 +387,7 @@ aside {
   font-weight: 300;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background: rgb(168, 168, 168);
+  background: var(--header-footer-colour);
   align-self: stretch;
   max-width: 60%;
 }
@@ -387,7 +398,7 @@ aside {
   font-weight: bold;
   display: inline-block;
   padding: 1rem;
-  color: #222;
+  color: var(--black);
   transition: all 350ms ease-in-out;
 }
 
@@ -451,12 +462,12 @@ aside {
 }
 
 .c-left {
-  color: #222;
+  color: var(--black);
   padding: 2rem;
   display: flex;
   flex-direction: column;
   max-width: 35%;
-  background: rgba(65, 77, 92, 0.274);
+  background: var(--header-footer-colour);
 }
 
 .c-right {
@@ -474,8 +485,8 @@ aside {
 }
 
 .social {
-  border-top: 1px solid rgba(255, 255, 0, 0.288);
-  border-bottom: 1px solid rgba(255, 255, 0, 0.288);
+  border-top: 1px solid var(--divide-border);
+  border-bottom: 1px solid var(--divide-border);
 }
 
 .social a {
@@ -501,23 +512,25 @@ form {
 }
 
 label {
-  color: #222;
+  color: var(--black);
   opacity: 0.8;
 }
 
 input {
-  color: rgb(209, 208, 208);
+  border: 1px solid var(--black);
+  color: var(--black);
   font-size: 1rem;
   width: 30%;
   margin: 1rem;
   height: 2rem;
   padding: 0.5rem;
   font-family: inherit;
-  background-color: rgb(65, 77, 92);
+  background-color: var(--body-light-colour);
 }
 
 textarea {
-  color: rgb(209, 208, 208);
+  border: 1px solid var(--black);
+  color: var(--black);
   padding: 0.5rem;
   font-family: inherit;
   font-size: 1.2rem;
@@ -525,17 +538,17 @@ textarea {
   width: 80%;
   height: 20rem;
   resize: none;
-  background-color: rgb(65, 77, 92);
+  background-color: var(--body-light-colour);
   flex-shrink: 1;
 }
 
 .btn {
-  color: rgb(209, 208, 208);
+  color: var(--body-light-colour);
   width: 25%;
   font-family: inherit;
   font-size: 1.2rem;
   padding: 0.5rem 2rem;
-  background-color: rgb(65, 77, 92);
+  background-color: var(--body-dark-colour);
   cursor: pointer;
   margin-top: 3rem;
   border-radius: 0.2rem;
@@ -612,7 +625,7 @@ textarea {
 /* -------------------------------------Webinar signup page (index pg > Join Us btn) */
 .web-h2 {
   font-weight: 400;
-  color: #222;
+  color: var(--black);
   margin-top: 1rem;
   text-align: center;
 }
@@ -660,10 +673,10 @@ textarea {
 
 /* -----------------------------------Footer styles-------------------------------------*/
 footer {
-  color: #111;
+  color: var(--more-black);
   font-family: "Libre Barcode 128 Text", sans-serif;
   font-size: 5rem;
-  background: rgb(168, 168, 168);
+  background: var(--header-footer-colour);
   min-height: 6rem;
   padding: 0.5rem;
 }
