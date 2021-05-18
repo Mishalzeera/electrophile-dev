@@ -87,7 +87,7 @@ The most stubborn detail I have at this stage is getting the video player to beh
 
 [Hasan Armstrong solution for responsive iFrame player](https://www.youtube.com/watch?v=QG7JQkeaJy4)
 
-The solution is to create a wrapper class with a position of relative, then position the iframe element as absolute. Top0 Left0 Width100% but most importantly, a padding-top of 56.25% which precisely constrains the default 16:9 Youtube video proportions. Use Vivo, more attractive.
+The solution is to create a wrapper class with a position of relative, then position the iframe element as absolute. Top0 Left0 Width100% but most importantly, a padding-top of 56.25% which precisely constrains the default 16:9 Youtube video proportions.
 
 ## Second Build
 
