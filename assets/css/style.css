@@ -17,7 +17,6 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1600px;
 }
 
 img {
@@ -49,6 +48,7 @@ header {
 
 /* --------------------------------------Logo (h1) */
 h1 {
+  font-size: 1.8rem;
   max-width: 15rem;
   text-align: center;
   line-height: 0.9;
@@ -70,12 +70,12 @@ h1::before {
 .nav-list-item {
   flex-shrink: 2;
   font-family: "Lekton", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-right: 5em;
 }
 
 .nav-list-item:nth-of-type(3) {
-  margin-right: 0rem;
+  margin-right: 1rem;
 }
 
 .active {
@@ -103,6 +103,9 @@ h1::before {
 @media (max-width: 500px) {
   .nav-list-item {
     font-size: 1.2rem;
+  }
+  .nav-list-item:nth-of-type(3) {
+    margin-right: 0rem;
   }
 }
 
