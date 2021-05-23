@@ -566,12 +566,13 @@ textarea {
 }
 
 .btn {
-  color: var(--body-light-colour);
+  border: 1px solid var(--black);
+  color: var(--body-dark-colour);
   width: 25%;
   font-family: inherit;
   font-size: 1.2rem;
   padding: 0.5rem 2rem;
-  background-color: var(--body-dark-colour);
+  background-color: var(--body-light-colour);
   cursor: pointer;
   margin-top: 3rem;
   border-radius: 0.2rem;
