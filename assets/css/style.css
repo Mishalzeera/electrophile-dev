@@ -217,25 +217,29 @@ h1::before {
   justify-content: space-evenly;
   margin: 0 0.5rem 0.5rem;
   padding: 2rem;
-  width: 100%;
+
   background: var(--header-footer-colour);
 }
 
 .main-about-us {
+  width: 140%;
   color: var(--black);
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
-  order: 1;
+  order: 0;
+  flex-grow: 2;
 }
 
 .main-sign-up {
+  width: 80%;
   opacity: 0.85;
   line-height: 1.8;
   font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-align: right;
   order: 2;
+  flex-shrink: 2;
 }
 
 #its-free {
@@ -263,11 +267,13 @@ h1::before {
 }
 
 .main-testim {
+  width: 80%;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
-  order: 0;
+  order: 1;
+  flex-shrink: 2;
 }
 
 .test-name {
