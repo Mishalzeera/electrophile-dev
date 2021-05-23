@@ -9,7 +9,7 @@
   --body-light-colour: rgb(231, 229, 229);
   --body-dark-colour: rgb(65, 77, 92);
   --header-footer-colour: rgb(168, 168, 168);
-  --black: #222;
+  --black: #070707;
   --more-black: rgb(15, 15, 15);
   --hover-colour: rgb(50, 92, 146);
   --divide-border: rgba(255, 255, 0, 0.288);
@@ -125,8 +125,8 @@ h1::before {
 .index-img,
 .p-img,
 .p-img2 {
-  border-left: 0.25rem solid var(--body-light-colour);
-  border-right: 0.25rem solid var(--body-light-colour);
+  /* border-left: 0.25rem solid var(--body-light-colour);
+  border-right: 0.25rem solid var(--body-light-colour); */
   width: 40%;
   margin: 1rem auto 0;
 }
@@ -145,11 +145,12 @@ h1::before {
 .img-bg {
   margin: 0.5rem;
 }
-.img-bg,
+.img-bg {
+  background: var(--black);
+}
 .img-bg2 {
   background: var(--body-dark-colour);
 }
-
 .iframe-wrapper {
   position: relative;
   padding-top: 56.25%;
@@ -190,14 +191,27 @@ h1::before {
   margin: 0 auto;
 }
 
+.wish-it {
+  display: flex;
+  justify-content: center;
+  font-size: 8rem;
+  color: var(--header-footer-colour);
+}
+
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Main page */
-.main-flex-parent {
+.see-it {
+  display: flex;
+  justify-content: center;
+  font-size: 8rem;
+  height: 40vh;
+}
+.main-flex-parent2 {
   display: flex;
   justify-content: space-evenly;
 }
 
-.main-flex-child {
+.main-flex2-child {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -268,7 +282,7 @@ h1::before {
 /* -------------Main Page Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1000px) {
-  .main-flex-parent {
+  .main-flex-parent2 {
     flex-wrap: wrap;
   }
 
