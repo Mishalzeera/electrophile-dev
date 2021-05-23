@@ -223,12 +223,14 @@ h1::before {
 
 .main-about-us {
   width: 160%;
+  padding: 6rem;
   color: var(--black);
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   order: 0;
   flex-grow: 2;
+  align-self: stretch;
 }
 
 .main-sign-up {
@@ -269,7 +271,7 @@ h1::before {
 .main-testim {
   width: 80%;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
   order: 1;
@@ -320,19 +322,27 @@ h1::before {
   margin: 1rem;
   line-height: 1.5;
   font-size: 1.1rem;
-  align-self: stretch;
+  /* align-self: flex-start; */
+}
+
+.we-build {
+  display: flex;
+  justify-content: center;
+  color: var(--body-dark-colour);
+  font-size: 8rem;
 }
 
 .about-text {
-  color: #222;
+  color: var(--black);
   padding: 2rem;
   line-height: 1.6;
-  text-align: center;
+  text-align: left;
   flex-basis: 45%;
   background: var(--header-footer-colour);
 }
 
 .about-text2 {
+  text-align: right;
   color: var(--black);
   font-size: 1.4rem;
   margin-bottom: 1rem;
