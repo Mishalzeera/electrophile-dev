@@ -180,11 +180,14 @@ h1::before {
   height: 100vh;
   width: 100vw;
   background: var(--hidden-header-colour);
-  padding: 1rem 0;
+  /* padding: 0.5rem 0.5rem; */
 }
 .img-dark {
+  border-left: 0.25rem solid var(--hidden-header-colour);
+  border-right: 0.25rem solid var(--hidden-header-colour);
   width: 40%;
-  margin: -0.75rem auto;
+  /* margin: 1rem auto 0; */
+  margin: 0 auto;
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
