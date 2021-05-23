@@ -132,14 +132,9 @@ h1::before {
 }
 
 .m-img {
-  border-left: 0.25rem solid var(--body-light-colour);
-  border-right: 0.25rem solid var(--body-light-colour);
-  opacity: 0.9;
   width: 100%;
-  flex-shrink: 0;
+  flex-shrink: 1;
   align-self: center;
-  border-left: unset;
-  border-right: unset;
 }
 
 .img-bg {
@@ -150,6 +145,11 @@ h1::before {
 }
 .img-bg2 {
   background: var(--body-dark-colour);
+  width: 10rem;
+}
+
+.about-img-bg {
+  background: #efefef;
 }
 .iframe-wrapper {
   position: relative;
@@ -330,6 +330,7 @@ h1::before {
   justify-content: center;
   color: var(--body-dark-colour);
   font-size: 8rem;
+  height: 40vh;
 }
 
 .about-text {
@@ -347,6 +348,7 @@ h1::before {
   font-size: 1.4rem;
   margin-bottom: 1rem;
   padding: 2rem;
+  align-self: stretch;
 }
 
 .about-vid {
@@ -385,12 +387,14 @@ h1::before {
 
 .m-flex-child {
   width: 100%;
-  margin-left: 0.5rem;
+
+  /* border: 1px solid purple; */
 }
 
 .m-right {
   margin: 0 0.5rem 0.5rem;
   display: flex;
+  justify-content: flex-end;
 }
 
 .m-h2 {
@@ -707,7 +711,7 @@ textarea {
 
 /* -----------------------------------Footer styles-------------------------------------*/
 footer {
-  color: var(--more-black);
+  color: black;
   font-family: "Libre Barcode 128 Text", sans-serif;
   font-size: 5rem;
   background: var(--header-footer-colour);
