@@ -218,7 +218,7 @@ h1::before {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-right: 1px;
+  border-right: 1px solid var(--header-footer-colour);
   padding: 2rem;
   color: var(--body-light-colour);
   background: var(--body-dark-colour);
@@ -239,7 +239,7 @@ h1::before {
 .main-sign-up {
   padding-top: 7rem;
   width: 40%;
-  opacity: 0.85;
+  /* opacity: 0.85; */
   line-height: 1.8;
   font-weight: 300;
   font-size: 1.5rem;
@@ -288,6 +288,7 @@ h1::before {
 
 .main-testim {
   width: 80%;
+  opacity: 0.8;
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -332,7 +333,7 @@ h1::before {
   /* margin: 0.5rem; */
   display: flex;
   align-items: flex-start;
-  background: var(--body-dark-colour);
+  /* background: var(--body-dark-colour); */
 }
 
 .about-flex-child {
@@ -343,6 +344,9 @@ h1::before {
   /* align-self: flex-start; */
 }
 
+.about-right {
+  position: relative;
+}
 .we-build {
   display: flex;
   justify-content: center;
@@ -369,6 +373,24 @@ h1::before {
   align-self: stretch;
 }
 
+.socket-img {
+  margin: auto;
+  margin-top: 5rem;
+  opacity: 0.3;
+}
+
+.fish-img {
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.fish-caption {
+  text-align: right;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
 .about-vid {
   margin-top: auto;
   margin-bottom: auto;
@@ -546,7 +568,7 @@ aside {
 /* --------------------------------------Contact page  */
 .c-flex-parent {
   display: flex;
-  margin: 1rem 0.5rem;
+  /* margin: 1rem 0.5rem; */
 }
 
 .c-flex-child {
@@ -554,11 +576,11 @@ aside {
 
 .c-left {
   color: var(--black);
-  padding: 2rem;
+  padding: 6rem 2rem;
   display: flex;
   flex-direction: column;
   max-width: 35%;
-  background: var(--header-footer-colour);
+  background: var(--body-dark-colour);
 }
 
 .c-right {
@@ -637,6 +659,7 @@ textarea {
   border: 1px solid var(--black);
   color: var(--body-dark-colour);
   width: 25%;
+  text-align: center;
   font-family: inherit;
   font-size: 1.2rem;
   padding: 0.5rem 2rem;
