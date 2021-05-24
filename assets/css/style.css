@@ -7,7 +7,7 @@
 :root {
   --hidden-header-colour: black;
   --body-light-colour: rgb(231, 229, 229);
-  --body-dark-colour: rgb(65, 77, 92);
+  --body-dark-colour: rgba(65, 77, 92, 0.897);
   --header-footer-colour: rgb(168, 168, 168);
   --black: #070707;
   --more-black: rgb(15, 15, 15);
@@ -128,7 +128,7 @@ h1::before {
   /* border-left: 0.25rem solid var(--body-light-colour);
   border-right: 0.25rem solid var(--body-light-colour); */
   width: 40%;
-  margin: 1rem auto 0;
+  margin: 0 auto;
 }
 
 .m-img {
@@ -138,20 +138,23 @@ h1::before {
 }
 
 .img-bg {
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
 }
 .img-bg {
   background: var(--black);
 }
+
+/* ------------------------------------------ */
 .img-bg2 {
   background: var(--body-dark-colour);
-  width: 10rem;
+  width: 16.5rem;
 }
-
+/* ^^^^^^^^^Above: Blue lightbulb image on media page */
 .about-img-bg {
   background: #efefef;
 }
-.iframe-wrapper {
+
+/* .iframe-wrapper {
   position: relative;
   padding-top: 56.25%;
   margin: 0.5rem auto;
@@ -163,7 +166,7 @@ h1::before {
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Index page */
 
@@ -215,16 +218,16 @@ h1::before {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 0 0.5rem 0.5rem;
+  margin-right: 1px;
   padding: 2rem;
-
-  background: var(--header-footer-colour);
+  color: var(--body-light-colour);
+  background: var(--body-dark-colour);
 }
 
 .main-about-us {
   width: 160%;
   padding: 6rem;
-  color: var(--black);
+
   font-size: 2rem;
   line-height: 1.5;
   text-align: left;
@@ -234,14 +237,29 @@ h1::before {
 }
 
 .main-sign-up {
-  width: 80%;
+  padding-top: 7rem;
+  width: 40%;
   opacity: 0.85;
   line-height: 1.8;
   font-weight: 300;
   font-size: 1.5rem;
   text-align: right;
   order: 2;
-  flex-shrink: 2;
+  flex-shrink: 1;
+}
+
+.webinar-form {
+  display: inline;
+  align-self: flex-end;
+}
+
+.webinar-label {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.webinar-input {
+  margin: 0;
+  width: 100%;
 }
 
 #its-free {
@@ -250,13 +268,12 @@ h1::before {
 }
 
 .cta-btn {
-  color: white;
   border: none;
   align-self: flex-end;
   font-family: inherit;
   font-size: 1rem;
-  padding: 0rem 1rem;
-  background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
+  padding: 0.5rem 1rem;
+  background: var(--body-light-colour);
   cursor: pointer;
   margin-top: 1rem;
   border-radius: 0.2rem;
@@ -264,14 +281,15 @@ h1::before {
 }
 
 .cta-btn:hover {
-  padding: 0rem 1.2rem;
+  /* padding: 0rem 1.2rem; */
   background-color: var(--hover-colour);
+  color: var(--body-light-colour);
 }
 
 .main-testim {
   width: 80%;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
   order: 1;
@@ -311,7 +329,7 @@ h1::before {
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------About Us page */
 .about-flex-parent {
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
   display: flex;
   align-items: flex-start;
   background: var(--body-dark-colour);
@@ -319,7 +337,7 @@ h1::before {
 
 .about-flex-child {
   width: 100%;
-  margin: 1rem;
+  /* margin: 1rem; */
   line-height: 1.5;
   font-size: 1.1rem;
   /* align-self: flex-start; */
@@ -330,22 +348,22 @@ h1::before {
   justify-content: center;
   color: var(--body-dark-colour);
   font-size: 8rem;
-  height: 40vh;
+  height: 20vh;
 }
 
 .about-text {
   color: var(--black);
-  padding: 2rem;
+  padding: 0 2rem 2rem;
   line-height: 1.6;
   text-align: left;
   flex-basis: 45%;
-  background: var(--header-footer-colour);
+  background: var(--body-light-colour);
 }
 
 .about-text2 {
   text-align: right;
   color: var(--black);
-  font-size: 1.4rem;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
   padding: 2rem;
   align-self: stretch;
@@ -381,7 +399,9 @@ h1::before {
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Media page  */
 .m-flex-parent {
-  margin-top: 0.5rem;
+  border-top: 1px solid #0707075e;
+  border-bottom: 1px solid #0707075e;
+
   display: flex;
 }
 
@@ -392,12 +412,46 @@ h1::before {
 }
 
 .m-right {
-  margin: 0 0.5rem 0.5rem;
   display: flex;
   justify-content: flex-end;
 }
 
+.m-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.moth-headline {
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 7rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.moth-article {
+  margin-top: 2rem;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.moth-read-more {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.lars-article {
+  font-size: 1rem;
+  opacity: 0.6;
+  border-bottom: 1px solid var(--body-dark-colour);
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
 .m-h2 {
+  padding-top: 1rem;
   border-bottom: 1px solid var(--divide-border);
   font-size: 2.5rem;
 }
@@ -422,8 +476,8 @@ aside {
   line-height: 1.8;
   letter-spacing: 1px;
   font-weight: 300;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  /* margin-left: 0.5rem; */
+  /* margin-right: 0.5rem; */
   background: var(--header-footer-colour);
   align-self: stretch;
   max-width: 60%;
@@ -660,44 +714,8 @@ textarea {
 }
 
 /* -------------------------------------------------------------------------------------------------------*/
-/* -------------------------------------Webinar signup page (index pg > Join Us btn) */
-.web-h2 {
-  font-weight: 400;
-  color: var(--black);
-  margin-top: 1rem;
-  text-align: center;
-}
+/* -------------------------------------Webinar signup redirect (index pg > Join Us btn) */
 
-.web-btn {
-  width: 10rem;
-  padding: unset;
-  display: flex;
-  justify-content: center;
-}
-
-.a-web-pad {
-  padding: 0rem 3rem;
-}
-
-.img-web {
-  opacity: 0.3;
-  margin-top: 3rem;
-}
-
-@media (max-width: 700px) {
-  .webinar-form {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  .web-btn {
-    font-size: 1rem;
-    padding: 0.5rem 0;
-  }
-}
-
-/* -------------------------------------------------------------------------------------------------------*/
-/* -------------------------------------Redirect page */
 .redirect {
   text-align: center;
   height: 62vh;
