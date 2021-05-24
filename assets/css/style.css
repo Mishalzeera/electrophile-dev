@@ -350,7 +350,7 @@ h1::before {
     height: 15vh;
   }
   .main-about-us {
-    padding: 0.5rem;
+    padding: 2rem 0.5rem;
   }
 
   .webinar-form {
@@ -359,7 +359,7 @@ h1::before {
   }
   .webinar-input {
     margin: 0;
-    width: 50%;
+    width: 80%;
   }
 }
 /* -------------------------------------------------------------------------------------------------------*/
@@ -436,6 +436,7 @@ h1::before {
 @media (max-width: 780px) {
   .we-build {
     font-size: 6rem;
+    align-items: center;
   }
 
   .about-flex-parent {
@@ -461,6 +462,7 @@ h1::before {
   .we-build {
     margin-top: 2rem;
     font-size: 3rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -475,8 +477,6 @@ h1::before {
 
 .m-flex-child {
   width: 100%;
-
-  /* border: 1px solid purple; */
 }
 
 .m-right {
@@ -574,12 +574,16 @@ aside {
 }
 
 @media (max-width: 1000px) {
+  .img-bg2 {
+    width: unset;
+  }
+
   .m-flex-parent {
     flex-direction: column;
   }
 
   .m-flex-child {
-    margin-top: 0.5rem;
+    margin: unset;
   }
 
   #vid2,
@@ -595,14 +599,24 @@ aside {
     display: unset;
   }
 
-  .m-right {
+  /* .m-right {
     order: -1;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
   aside {
     max-width: 90%;
+  }
+  .img-bg2 {
+    flex-shrink: 0;
+    max-width: 6rem;
+  }
+
+  .moth-headline {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
   }
 
   .m-left {
