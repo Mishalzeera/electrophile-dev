@@ -177,7 +177,6 @@ h1::before {
   border-left: 0.25rem solid var(--hidden-header-colour);
   border-right: 0.25rem solid var(--hidden-header-colour);
   width: 40%;
-  /* margin: 1rem auto 0; */
   margin: 0 auto;
 }
 
@@ -227,6 +226,19 @@ h1::before {
   order: 0;
   flex-grow: 2;
   align-self: stretch;
+}
+
+.quote {
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--more-black);
+}
+
+.quote a {
+  background-color: var(--body-light-colour);
+  padding: 0.2rem 5rem;
+  border: 1px solid var(--more-black);
 }
 
 .main-sign-up {
