@@ -350,6 +350,7 @@ h1::before {
     height: 15vh;
   }
   .main-about-us {
+    font-size: 1.5rem;
     padding: 2rem 0.5rem;
   }
 
@@ -804,10 +805,16 @@ textarea {
   height: 62vh;
 }
 .thankyou-h2 {
-  margin: 10rem auto;
+  margin: 15rem auto 3rem;
 }
 .thankyou-p {
   opacity: 0.6;
+}
+
+@media (max-width: 700px) {
+  .thankyou-h2 {
+    margin: 10rem auto 3rem;
+  }
 }
 
 /* -----------------------------------Footer styles-------------------------------------*/
