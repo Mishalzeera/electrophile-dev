@@ -432,6 +432,12 @@ h1::before {
   margin-bottom: auto;
 }
 
+.employee-img {
+  width: 20%;
+  border-radius: 50%;
+  display: inline;
+}
+
 /* -------------About Us Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 780px) {
