@@ -292,11 +292,11 @@ h1::before {
 
 .test-name {
   margin: 2rem auto;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bolder;
   text-transform: uppercase;
-  opacity: 0.6;
-  letter-spacing: 1px;
+  opacity: 0.8;
+  letter-spacing: 2px;
 }
 
 /* -------------Main Page Media Query */
@@ -432,10 +432,23 @@ h1::before {
   margin-bottom: auto;
 }
 
+.test-name2 {
+  font-size: 0.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 1px;
+}
+.employee-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .employee-img {
+  opacity: 0.8;
+  display: inline;
   width: 20%;
   border-radius: 50%;
-  display: inline;
 }
 
 /* -------------About Us Media Query */
