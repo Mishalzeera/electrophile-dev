@@ -420,24 +420,19 @@ h1::before {
   padding: 2rem;
   align-self: stretch;
 }
-
-.socket-img {
-  margin: auto;
-  margin-top: 5rem;
-  opacity: 0.3;
-}
-
-.fish-img {
-  margin: 0 auto;
-  opacity: 0.8;
-}
-
-.fish-caption {
+.light-text {
+  color: var(--body-light-colour);
+  font-size: 4rem;
   text-align: right;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  font-size: 1rem;
-  font-style: italic;
+  margin: 2rem 2rem 0;
+}
+.brothers {
+  margin: 0 auto;
+}
+.brother-caption {
+  text-align: center;
+  margin: 1rem auto;
+  opacity: 0.8;
 }
 .about-vid {
   margin-top: auto;
