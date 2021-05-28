@@ -232,8 +232,14 @@ h1::before {
 
 .quote a {
   background-color: var(--body-light-colour);
+  border-radius: 0.2rem;
   padding: 0.2rem 5rem;
   border: 1px solid var(--more-black);
+}
+
+.quote a:hover {
+  background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
+  color: white;
 }
 
 .main-sign-up {
@@ -269,20 +275,19 @@ h1::before {
 
 .cta-btn {
   border: none;
-  align-self: flex-end;
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   background: var(--body-light-colour);
   cursor: pointer;
-  margin-top: 1rem;
+  margin-top: 4rem;
   border-radius: 0.2rem;
   transition: all 150ms ease-in-out;
 }
 
 .cta-btn:hover {
-  background-color: var(--hover-colour);
-  color: var(--body-light-colour);
+  background: linear-gradient(rgb(65, 77, 92), rgba(45, 100, 172, 0.445));
+  color: white;
 }
 
 .main-testim {
