@@ -1,119 +1,53 @@
-# The Electrophile Computational Company
+# **The Electrophile Computational Company**
 
-## **Purpose**
+A website for a fictitious web and app development company. The company has a copywriting and design-first orientation, which is geared towards a clientiele with a specific mentality. The client has an entrepreneurial spirit but has an aversion to business-speak-catchphrases. No "implementing strategic deployments using the emerging third world labour market" or indeed, ever using the word "deployment", in any context.
 
-This is a website to inform the public about a web-design/web-app dev company.
+She or he has an innate sense of respect for their customers and, while being ambitious, is not specifically motivated by financial incentives. This is the type of business owner who would run on a sustainable model, and the sort of person who - beyond their basic needs and a holiday here and there - isn't out to climb any financial rungs.
 
-The skillset of the company includes copywriting as well as graphic design.
+Think of [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli). Now imagine his total opposite. Our client may indeed have a lot of financial and social clout, and be respected in their field. In any case, he or she would have earned their position through their interpersonal skills and their ability to make the correct judgement of situations and people.
 
-The impression given to the customer should be that we have a particular set of skills as well as a design-based orientation.
+The website is intended to serve as a manifesto of sorts, without being heavy handed in the way this README is already(!).
 
-The playful, graphical character of the company should be evident on the site. The viewer should be able to have a sense immediately if we are of a similar mindset.
+I imagine this website to be seen by a potential client after a casual social meeting, probably by chance. "Oh, you make websites and apps?" "Yeah, here let me send you our site." and then upon first glance there is already a sense of connection or not. Its not intended to necessarily draw in people from the web via links but that sort of functionality is present and prominent. A contact page and a few CTA buttons on the main page cater to that situation. The primary client would already have an employees personal phone number in their mobile, though.
 
-## **Features**
+## The evolution of the site
 
-### Home page
+If you refer to first_README.md you can chart more closely the progress of the site concept. I found it difficult to have any real sense of how to design the site until the company vision, fictitious or not, became clear. Im reminded of my experiences as a freelance audio professional - the most difficult jobs are the ones where the client doesn't know what they want. In the early wireframes you can definitely get a sense of messing around in the shallow waters. Some of the colour schemes and font ideas did indeed survive, but the intent and purpose have changed totally.
 
-<br>
+The genesis of the site was in a conversation with my previous mentor. While she was clearly capable and had some good advice for me intially, we had to part ways due to scheduling problems and some communication issues. I had initially built a site for my audio services, which I approached in an unorthodox way. I used background images and audio players as the main content. She immediately began picking at issues of contrast and visibility - which were the elements I liked the most. Its a dark, moody website that I wanted people to spend some time relaxing in. Listen to the music, allow an atmosphere to form.
 
-![First page](assets/imgs/wframe-imgs/1stpage.png)
+That is definitely not for everybody and a pretty bad idea for a Code Institute Milestone Project. I can imagine that there are certain concepts you want to be sure that a student grasps - design and structural concepts. Moreover, it being representative of my own musical work, I was perhaps too sensitive to any suggestions I didn't like regarding it.
 
-- Home page (and consistent elements)
+I then thought, why not build a site I can later adapt to my own needs? I have the intention to freelance as a web developer as soon as I am able. A quick Google search of interesting scientific terms yielded the word "electrophile" which I liked.
 
-  - High contrast text (from left on desktop view, top on mobile view) informs you about our services, has a "call to action" section with a button, and a high value testimonial.
-  - Sets the tone with grey backgrounds, header and footer and even body in lighter shades of grey. Strong contrast with colourful, playful imagery and button colour.
-  - A responsive navigation area that clearly shows where the user is, using active classes. Also allows for a little bit of font variety, without distracting from the main Roboto family.
-  - The footer, with its barcode styling, allows for some further visual indication of our design sensibilites.
+**First mentor meeting**
 
-<br>
-<hr>
-<br>
+Furthermore, at this point I got in contact with Brian Macharia, my replacement mentor. His feedback was based in objective design principles as well as his experience in mentoring previous CI students. It was, in fact, his off the cuff remark that my ultra-sparse redirect.html page was his favourite that gave me the best sense of how to proceed.
 
-### Projects (About Us) page
+I then really homed in on the bulb image as a central theme for the site. A solitary dark bulb is the index page, and every bulb is a link on towards the next page.
 
-<br>
+One of the recurring thoughts throughout this stage of the process was the wish that I had a better grasp of the mobile first approach at the start. While I had it clear in my mind, when I got to actually building the site, I was in a rush to make sure my columns were working and that Flexbox wasn't suddenly obsolete. I regretted that as I got to adding media queries. Its so much more elegant, code-wise with Flexbox, when you work from a small device upwards. I could be wrong, Im new to this, but it does seem that way to me.
 
-![Second page](assets/imgs/wframe-imgs/2ndpage.png)
+I had an hours stab at rewriting the CSS to be properly mobile-first, but abandoned it as it felt like an inefficient use of my limited time.
 
-- Projects page (updated to About Us page)
+**Second mentor meeting**
 
-  - Page with an image in one row, then two sections in another, in desktop mode.
-  - The left section, about 30% of the screen, contains text that describes notable completed projects. Written from the perspective staff developers, designers and copywriters, it should project our particular skillset.
-  - The right section will have an embedded video that documents a project that shows our company values and intentions. This would be a project that involves our work being part of a greater social effort. Ideally, this would add some greater scope to our company profile.
+By this point, despite having really enjoyed the process of taking the site to its 90% state, I was ready to move on. I had been dabbling in the Javascript and JQuery sections of the CI course and was getting very wrapped up in it. Brian had more good feedback for me, specific points that I could write up in a checklist and get through in a single morning.
 
-<br>
-<hr>
-<br>
+## What I learned
 
-### **Media page**
+There were many stages I particularily enjoyed - working on the images and the text content especially. Web design is easier within a strong image, font and content cohesion, I think. I think some of the most useful steps in my process involved taking my time choosing the right visual elements.
 
-<br>
+The areas that I felt the most challenged by were positioning things in CSS, as well as strategising layout and styling decisions to be in harmony with one another.
 
-![Third page](assets/imgs/wframe-imgs/3rdpage.png)
+Redundant class names, poor class naming conventions was another challenge. I started out with a sense of dislike for the Bootstrap framework, and I still think my choice to learn Flexbox and Grid was right for me. However, I think I may have benefited from internalising the Bootstrap naming conventions. I am now learning a bit about BEM.
 
-- Media page
+Towards the end I started using CSS variables, perhaps a bit late in the project for it to be of any great help. Of course, later on when comes time to adapt the site to something real, it could be greatly helpful.
 
-  - A page it is hoped that a visitor would spend some time on. The goal is not to overwhelm but to entertain while informing.
-  - Layout wise, on desktop - half the screen will be video media. The remaining area on the right is split between an image element and an aside bar.
-  - The videos should be short clips from design blogs and branding tutorials we have contributed to. Interspersed with that, some irreverent homemade entertainment.
-  - The aside bar is a list of quotes from linked articles. (update: The aside bar will be an embedded article about our company linked from a prominent tech journal)
+## Thoughts on CI's HTML and CSS course
 
-<br>
-<hr>
-<br>
+I have to admit that I had a very difficult time with much of the Code Institute material. I can clearly see there is some real knowledge and capability in the instructors and I am at a loss to understand why the lessons don't reflect that enough. I relied on other content, some of it paid, in order to move forwards. Especially in that I wasn't in favour of using Bootstrap without a grasp of underlying CSS layout technologies, I felt very much on my own.
 
-### **Contact page**
+I leaned heavily on [Kevin Powell's](https://www.kevinpowell.co/) lucid and accessible CSS lessons. Also [Scrimba](https://scrimba.com/).
 
-<br>
-
-![Fourth page](assets/imgs/wframe-imgs/4thpage.png)
-
-- Contact page
-
-  - Layout with one third containing phone numbers, addresses and social links. Two thirds of the screen on the right is a contact form.
-  - Spacious, grounded and inviting using line-height, contrast, white space and visual heirarchy.
-
-## First Build
-
-After building the site and getting it responsive-ish - it became clear that the Projects page needed to be an About Us page instead. It didn't seem effective to launch into specifics at that point.
-
-### Things I could do better next time
-
-Despite my intention being to build a mobile first site, I built the desktop view first. I regretted that as I felt my code was less compact than it could have been. Also the heirarchical structures of Flexbox is so much more intuitive when mobile-first. At least, it seems to me at this early point in my learning. I am considering whether to rebuild the site in that way, on a different branch and then compare later. (Update, lesson learned - its a total mess trying to reverse it. Not worth the time.)
-
-### External video sizing issue
-
-The most stubborn detail I have at this stage is getting the video player to behave naturally. It wants specific widths and heights, and doesn't want to flow along with the rest of the content.
-
-[Hasan Armstrong solution for responsive iFrame player](https://www.youtube.com/watch?v=QG7JQkeaJy4)
-
-The solution is to create a wrapper class with a position of relative, then position the iframe element as absolute. Top0 Left0 Width100% but most importantly, a padding-top of 56.25% which precisely constrains the default 16:9 Youtube video proportions.
-
-## Second Build
-
-After living with the content for a week, the purpose of the site and the approach to the content became clear. Previously I had been operating on a mental level. Things became cohesive and instinctual when I decided that an Edison bulb should be the central visual focus of my site. Adding textual content also provided a sense of direction that I needed for this project. I can see very easily how important it is to have clients who know what they want. Without that clarity, something is always missing.
-
-A totally dark landing page with a b/w bulb that turns on when you click it gets you into the main page of the site. I liked that feeling of interactivity along with the cohesion of the company purpose.
-
-![Landing page](assets/imgs/wframe-imgs/2dark-landing.png)
-![Main page](assets/imgs/wframe-imgs/2main-page.png)
-
-## Thoughts after my mentor session
-
-Finally I had some feedback on what I was doing, which immediately clarified many things for me. Other than some margin issues, technically the site was in working shape. However, the need for simplifying things became apparent as we discussed the site. I became aware of the mental impression I had that there has to be a lot of "stuff" in order for it to be a proper website.
-
-I got a good sense of which design choices I made that were good, and which were not good. A sense of narrowing down the vision for the site took place, and now as I begin to revise the site I feel clear about what I need to do.
-
-**Some examples of the clutter**
-
-I was convinced I needed lots of video media, but my mentor assured me that a company like the one I am pretending to own wouldn't do things that way.
-
-![Way too much stuff](assets/imgs/wframe-imgs/2media-page.png)
-
-Already the messy Youtube functionality distracts and impedes the visual flow. I will limit the video media to a single one, and will try Vivo or Vimeo since I find the Youtube styling ugly.
-
-**Looking at my peers work**
-
-On the Slack channel there were a few really good examples that inspired me to commit further to the visual elements that I like for my site. In particular, Daphne Heimgartners "Follow The Moon" page, at https://daph1986.github.io/Follow-the-moon/ - really helped it click for my way of thinking.
-
-I am learning that the images, colours and fonts should be allowed to have all they need to speak clearly, and keep the text content to the necessary function. The text content and visuals should work in harmony, guiding the end user to whatever desired action while informing them on deeper levels what the site owners creative values are.
+CI offers outstanding student support and the intelligent, friendly staff I have interacted with have been very encouraging. I hope that a simple update to the didactic content happens soon enough that I may benefit from it. Still, it is frustrating to now be moving forwards with learning JavaScript, learning from other online resources and using my CI study as a map rather than a central resource.
