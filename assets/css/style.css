@@ -278,7 +278,7 @@ h1::before {
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  background: var(--body-light-colour);
+  background: white;
   cursor: pointer;
   margin-top: 4rem;
   border-radius: 0.2rem;
@@ -680,9 +680,6 @@ aside {
   display: flex;
 }
 
-.c-flex-child {
-}
-
 .c-left {
   color: var(--body-light-colour);
   padding: 6rem 2rem;
@@ -747,7 +744,7 @@ input {
   height: 2rem;
   padding: 0.5rem;
   font-family: inherit;
-  background-color: var(--body-light-colour);
+  background-color: white;
 }
 
 textarea {
@@ -760,7 +757,7 @@ textarea {
   width: 80%;
   height: 20rem;
   resize: none;
-  background-color: var(--body-light-colour);
+  background-color: white;
   flex-shrink: 1;
 }
 
@@ -772,7 +769,7 @@ textarea {
   font-family: inherit;
   font-size: 1.2rem;
   padding: 0.5rem 2rem;
-  background-color: var(--body-light-colour);
+  background-color: white;
   cursor: pointer;
   margin-top: 3rem;
   border-radius: 0.2rem;
