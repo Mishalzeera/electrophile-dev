@@ -492,6 +492,7 @@ h1::before {
   }
 
   .about-text {
+    text-align: justify;
     margin-top: unset;
     padding: 1rem;
     order: 1;
@@ -507,6 +508,10 @@ h1::before {
     margin-top: 2rem;
     font-size: 3rem;
     margin-bottom: 1rem;
+  }
+
+  .about-text {
+    text-align: left;
   }
 }
 
@@ -731,7 +736,7 @@ input {
   border: 1px solid var(--black);
   color: var(--black);
   font-size: 1rem;
-  width: 30%;
+  width: 50%;
   margin: 1rem;
   height: 2rem;
   padding: 0.5rem;
@@ -814,8 +819,7 @@ textarea {
 
   textarea {
     margin-top: 2rem;
-    width: unset;
-    height: unset;
+    text-align: justify;
     min-width: 100%;
   }
 
