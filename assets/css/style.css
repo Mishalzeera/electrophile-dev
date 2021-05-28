@@ -598,7 +598,6 @@ aside {
   padding: 0 1rem 5rem;
   line-height: 1.8;
   letter-spacing: 1px;
-  /* font-weight: 300; */
 
   background: var(--header-footer-colour);
   align-self: stretch;
@@ -859,6 +858,13 @@ textarea {
   .thankyou-h2 {
     margin: 10rem auto 3rem;
   }
+}
+
+/* -------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------404 page */
+
+.sml404 {
+  font-size: 2rem;
 }
 
 /* -----------------------------------Footer styles-------------------------------------*/
