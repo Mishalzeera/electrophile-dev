@@ -390,6 +390,7 @@ h1::before {
   }
 
   .see-it {
+    padding-top: unset;
     margin-top: 2rem;
     font-size: 4rem;
     height: 15vh;
@@ -628,7 +629,7 @@ aside {
   max-width: 60%;
 }
 
-#new-yorker {
+.new-yorker {
   font-style: italic;
   font-size: 0.9rem;
   font-weight: bold;
