@@ -442,6 +442,7 @@ h1::before {
 
 .about-right {
   position: relative;
+  font-size: 1.3rem;
 }
 
 .about-large-text {
