@@ -443,6 +443,7 @@ h1::before {
 .about-right {
   position: relative;
 }
+
 .about-large-text {
   margin-top: 4rem;
   display: flex;
@@ -450,6 +451,14 @@ h1::before {
   color: var(--body-dark-colour);
   font-size: 8rem;
   height: 20vh;
+}
+
+.about-large-text::before {
+  content: "At ";
+  color: var(--black);
+  font-size: 1.1rem;
+  display: flex;
+  align-self: flex-start;
 }
 
 .about-text {
