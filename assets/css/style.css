@@ -175,7 +175,7 @@ h1::before {
   margin: 0 auto;
 }
 
-.wish-it {
+.look {
   display: flex;
   justify-content: center;
   font-size: 8rem;
@@ -417,7 +417,7 @@ h1::before {
 .about-right {
   position: relative;
 }
-.we-build {
+.about-large-text {
   display: flex;
   justify-content: center;
   color: var(--body-dark-colour);
@@ -440,14 +440,8 @@ h1::before {
   letter-spacing: 1px;
   margin-bottom: 1rem;
   padding: 2rem;
-  align-self: stretch;
 }
-.light-text {
-  color: var(--body-light-colour);
-  font-size: 4rem;
-  text-align: right;
-  margin: 2rem 2rem 0;
-}
+
 .brothers {
   margin: 0 auto;
 }
@@ -483,7 +477,7 @@ h1::before {
 /* -------------About Us Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 780px) {
-  .we-build {
+  .about-large-text {
     font-size: 6rem;
     align-items: center;
   }
@@ -509,7 +503,7 @@ h1::before {
 }
 
 @media (max-width: 550px) {
-  .we-build {
+  .about-large-text {
     margin-top: 2rem;
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -637,11 +631,6 @@ aside {
 
   .m-flex-child {
     margin: unset;
-  }
-
-  #vid2,
-  #vid3 {
-    display: none;
   }
 
   .m-p1 {
