@@ -192,7 +192,7 @@ h1::before {
 }
 
 @media (max-width: 500px) {
-  .wish-it {
+  .look {
     margin-top: 3rem;
     font-size: 3rem;
   }
@@ -202,6 +202,7 @@ h1::before {
 /* --------------------------------------Main page */
 
 .see-it {
+  padding-top: 4rem;
   display: flex;
   justify-content: center;
   font-size: 8rem;
@@ -325,7 +326,7 @@ h1::before {
 
 @media (max-width: 1000px) {
   .see-it {
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
   }
 
   .main-flex-parent2 {
@@ -443,6 +444,7 @@ h1::before {
   position: relative;
 }
 .about-large-text {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   color: var(--body-dark-colour);
@@ -508,9 +510,9 @@ h1::before {
 
 @media (max-width: 780px) {
   .about-large-text {
+    margin-top: 3rem;
     font-size: 7rem;
     align-items: center;
-    margin-top: 1rem;
   }
 
   .about-flex-parent {
