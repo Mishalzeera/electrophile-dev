@@ -49,6 +49,7 @@ a:focus {
 
 /* -----------------------------------Header styles------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
+
 header {
   background: var(--header-footer-colour);
   min-height: 6rem;
@@ -59,6 +60,7 @@ header {
 }
 
 /* --------------------------------------Logo (h1) */
+
 h1 {
   font-size: 1.8rem;
   max-width: 15rem;
@@ -74,6 +76,7 @@ h1::before {
 }
 
 /* --------------------------------------Nav */
+
 .nav-inner-list {
   list-style: none;
   display: flex;
@@ -101,6 +104,7 @@ h1::before {
 
 /* -------------Header Media Query */
 /* -------------------------------------------------------------------------------------------------------*/
+
 @media (max-width: 1000px) {
   header {
     flex-wrap: wrap;
@@ -116,6 +120,7 @@ h1::before {
   .nav-list-item {
     font-size: 1.2rem;
   }
+
   .nav-list-item:nth-of-type(3) {
     margin-right: 0rem;
   }
@@ -123,6 +128,7 @@ h1::before {
 
 /* -----------------------------------Content element styles img vid etc------------------------------------- */
 /* --------------------------------------Img */
+
 .index-img,
 .p-img,
 .p-img2 {
@@ -141,11 +147,13 @@ h1::before {
 }
 
 /* ------------------------------------------ */
+
 .img-bg2 {
   background: var(--body-dark-colour);
   width: 16.5rem;
 }
 /* ^^^^^^^^^Above: Blue lightbulb image on media page */
+
 .about-img-bg {
   background: #efefef;
 }
@@ -168,6 +176,7 @@ h1::before {
   width: 100vw;
   background: var(--hidden-header-colour);
 }
+
 .img-dark {
   border-left: 0.25rem solid var(--hidden-header-colour);
   border-right: 0.25rem solid var(--hidden-header-colour);
@@ -188,14 +197,17 @@ h1::before {
     font-size: 3rem;
   }
 }
+
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Main page */
+
 .see-it {
   display: flex;
   justify-content: center;
   font-size: 8rem;
   height: 40vh;
 }
+
 .main-flex-parent2 {
   display: flex;
   justify-content: space-evenly;
@@ -214,7 +226,6 @@ h1::before {
 .main-about-us {
   width: 160%;
   padding: 6rem 6rem 6rem 2rem;
-
   font-size: 3rem;
   line-height: 1.5;
   text-align: left;
@@ -262,6 +273,7 @@ h1::before {
   font-size: 0.8rem;
   margin: 0;
 }
+
 .webinar-input {
   margin: 0;
   width: 100%;
@@ -310,6 +322,7 @@ h1::before {
 
 /* -------------Main Page Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
+
 @media (max-width: 1000px) {
   .see-it {
     padding-top: 4rem;
@@ -336,7 +349,6 @@ h1::before {
     font-size: 2rem;
     text-align: center;
     width: 100%;
-
     align-content: center;
   }
 
@@ -344,6 +356,7 @@ h1::before {
     min-height: auto;
     align-self: center;
   }
+
   .webinar-label {
     font-size: 0.8rem;
     margin: 0.5rem;
@@ -389,6 +402,7 @@ h1::before {
     font-size: 3rem;
     height: 15vh;
   }
+
   .main-about-us {
     font-size: 1.5rem;
     padding: 2rem 0.5rem;
@@ -398,17 +412,21 @@ h1::before {
     margin-top: 2rem;
     font-size: 1rem;
   }
+
   .webinar-form {
     display: flex;
     flex-direction: column;
   }
+
   .webinar-input {
     margin: 0;
     width: 80%;
   }
 }
+
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------About Us page */
+
 .about-flex-parent {
   display: flex;
   align-items: flex-start;
@@ -416,7 +434,6 @@ h1::before {
 
 .about-flex-child {
   width: 100%;
-
   line-height: 1.5;
   font-size: 1.1rem;
 }
@@ -452,11 +469,13 @@ h1::before {
 .brothers {
   margin: 0 auto;
 }
+
 .brother-caption {
   text-align: center;
   margin: 1rem auto;
   opacity: 0.8;
 }
+
 .about-vid {
   margin-top: auto;
   margin-bottom: auto;
@@ -469,11 +488,13 @@ h1::before {
   opacity: 0.5;
   letter-spacing: 1px;
 }
+
 .employee-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .employee-img {
   opacity: 0.8;
   display: inline;
@@ -483,6 +504,7 @@ h1::before {
 
 /* -------------About Us Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
+
 @media (max-width: 780px) {
   .about-large-text {
     font-size: 7rem;
@@ -524,10 +546,10 @@ h1::before {
 
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Media page  */
+
 .m-flex-parent {
   border-top: 1px solid #0707075e;
   border-bottom: 1px solid #0707075e;
-
   display: flex;
 }
 
@@ -567,6 +589,7 @@ h1::before {
   font-size: 0.8rem;
   opacity: 0.6;
 }
+
 .lars-article {
   font-size: 1rem;
   opacity: 0.6;
@@ -600,7 +623,6 @@ aside {
   padding: 0 1rem 5rem;
   line-height: 1.8;
   letter-spacing: 1px;
-
   background: var(--header-footer-colour);
   align-self: stretch;
   max-width: 60%;
@@ -618,6 +640,7 @@ aside {
 
 /* -------------Media page Media Query */
 /* ---------------------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 800px) {
   .m-p2 {
     display: none;
@@ -654,6 +677,7 @@ aside {
   aside {
     max-width: 90%;
   }
+
   .img-bg2 {
     flex-shrink: 0;
     max-width: 6rem;
@@ -672,6 +696,7 @@ aside {
 
 /* -------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------Contact page  */
+
 .c-flex-parent {
   display: flex;
 }
@@ -785,6 +810,7 @@ textarea {
   .c-flex-child {
     padding-bottom: 3rem;
   }
+
   .c-left {
     padding: unset;
   }
@@ -794,6 +820,7 @@ textarea {
     min-width: 100%;
   }
 }
+
 @media (max-width: 600px) {
   .c-flex-parent {
     margin-top: unset;
@@ -858,9 +885,11 @@ textarea {
   text-align: center;
   height: 62vh;
 }
+
 .thankyou-h2 {
   margin: 15rem auto 3rem;
 }
+
 .thankyou-p {
   opacity: 0.6;
 }
@@ -879,6 +908,7 @@ textarea {
 }
 
 /* -----------------------------------Footer styles-------------------------------------*/
+
 footer {
   color: black;
   font-family: "Libre Barcode 128 Text", sans-serif;
