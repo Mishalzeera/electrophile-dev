@@ -103,6 +103,7 @@ It's indeed arcane in some sense, but I am enjoying learning it.
 ![media page](assets/imgs/wframe-imgs/media_end.png)
 
 I left the bulb off the contact page for a similar reason. I had a watermark style bulb in the background for a short spell and it felt oppressive.
+
 ![contact page](assets/imgs/wframe-imgs/contact_end.png)
 
 # Basic elements
@@ -162,3 +163,5 @@ I have to admit that I had a very difficult time with much of the Code Institute
 I leaned heavily on [Kevin Powell's](https://www.kevinpowell.co/) lucid and accessible CSS lessons. Also [Scrimba](https://scrimba.com/).
 
 CI offers outstanding student support and the intelligent, friendly staff I have interacted with have been very encouraging. It is not my intention to disparage the many good things I see CI providing. I need a framework of study especially as things get more difficult now. I hope that an update to the didactic content happens soon enough that I may benefit from it, though. It is frustrating to now be moving forwards with learning JavaScript, learning from other online resources and using my CI study as a map rather than a central resource.
+
+![goodbye](assets/imgs/lamp-bw-alt.jpg)
