@@ -2,41 +2,37 @@
 
 ![UV lamp](assets/imgs/lamp-uv.jpg)
 
-A website for a fictitious web and app development company. The company has a copywriting and design-first orientation, which is geared towards a clientele with a specific mentality. The client has an entrepreneurial spirit but has an aversion to business-speak-catchphrases. No "implementing strategic deployments using the emerging third world labour market" or indeed, ever using the word "implement", in any context.
+A website for a fictitious web and app development company. The company has a copywriting and design-first orientation, which is geared towards a clientele with a specific mentality. The client has an entrepreneurial spirit but has an aversion to business-speak-catchphrases. No "implementing strategic deployments using the emerging third world labour market", or ever using jargon like that.
 
-She or he has an innate sense of respect for their customers and, while being ambitious, is not specifically motivated by financial incentives. This is the type of business owner who would run on a sustainable model and the sort of person who - beyond their basic needs and a holiday here and there - isn't out to climb any financial rungs.
+She or he has an innate sense of respect for their customers and, while being ambitious, is not specifically motivated by financial incentives. This is the type of business owner who would try to run on a sustainable model and who - beyond their basic needs and a holiday here and there - isn't out to make any killings.
 
 Think of [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli). Now imagine his total opposite. Our client may indeed have a lot of financial and social clout, and be respected in their field. In any case, he or she would have earned their position through their interpersonal skills and their ability to make the correct judgment of situations and people.
 
-The website is intended to serve as a manifesto of sorts, without being heavy-handed in the way this README is already!
-
-I imagine this website to be seen by a potential client after a casual social meeting, probably by chance. "Oh, you make websites and apps for people like me? What do you mean by people like me?" "Here let me send you our site." and then upon first glance there is already a sense of connection or not. It's not intended to necessarily draw in people from the web via links but that sort of functionality is present and prominent. A contact page and a few CTA buttons on the main page cater to that situation. The primary client would already have an Electrophile employee's phone number in their mobile, though.
+I imagine this website to be seen by a potential client after a casual social meeting, probably by chance. "Oh, you make websites and apps for people like me? What do you mean by people like me?" "Here let me send you our site." and then upon first glance there is already a sense of connection or not. It's not intended to necessarily draw in people from the web via links. Still, that sort of functionality is present and prominent. A contact page and a few CTA buttons on the main page cater to that situation. The primary client would already have an Electrophile employee's phone number in their mobile, though.
 
 ## The evolution of the site
 
-If you refer to first_README.md you can chart my progress more closely. I found it difficult to have any real sense of how to design the site until the company vision, fictitious or not, became clear. It reminded me of my experiences as a freelance audio professional - the most difficult jobs are the ones where the client doesn't know what they want. In the early wireframes, you might get a sense of messing around in the shallow waters. Some of the colour schemes and font ideas did indeed survive, but the intent and purpose have changed totally.
+If you refer to first_README.md you can chart my progress more closely. I found it difficult to have any real sense of how to design the site until the company vision, fictitious or not, became clear. It reminds me of my experience as a freelance audio professional - the most difficult jobs are the ones where the client doesn't know what they want. In the early wireframes, you might get a sense of messing around in the shallow waters. Some of the colour schemes and font ideas did indeed survive, but the intent and purpose have changed.
 
 The genesis of the site was in a conversation with my previous mentor. While she was clearly capable and had some good advice for me initially, we had to part ways due to scheduling obstacles and some communication problems. I had initially built a site for my audio services, which I approached in an unorthodox way. I used background images and audio players as the main content. She immediately began picking at issues of contrast and visibility - which were the elements I liked the most. It's a dark, moody website that I want people to spend some time relaxing in. Listen to the music, allow an atmosphere to form.
 
-That is not for everybody and a pretty bad idea for a Code Institute Milestone Project. I can imagine that there are certain concepts you want to be sure that a student grasps - design and structural concepts. Moreover, it being representative of my musical work, I was perhaps too sensitive to any suggestions I didn't like regarding it.
+That is not for everybody and admittedly a bad idea for a Code Institute Milestone Project. I can imagine that there are certain concepts you want to be sure that a student grasps - design and structural concepts. Moreover, it being representative of my musical work, I was perhaps too sensitive to any suggestions I didn't like regarding it.
 
 I then thought, why not build a site I can later adapt to my own needs? I have the intention to freelance as a web developer as soon as I am able. A quick Google search of interesting scientific terms yielded the word "electrophile" which I liked.
 
-**First mentor meeting**
+**Mentor meeting**
 
-Furthermore, at this point, I got in contact with Brian Macharia, my replacement mentor. His feedback was based on objective design principles as well as his experience in mentoring previous CI students. It was, in fact, his off the cuff remark that my ultra-sparse redirect.html page was his favourite that gave me the best sense of how to proceed.
+Furthermore, at this point, I got in contact with my replacement mentor. His feedback was largely in the vein of practical design fundamentals. It was, in fact, his remark that my ultra-sparse redirect.html page was his favourite that gave me the best sense of how to proceed.
 
 I then really homed in on the bulb image as a central theme for the site. A solitary dark bulb is the index page, and every bulb is a link to the next page.
 
 ![index](assets/imgs/wframe-imgs/index_end.png)
 
-**Second mentor meeting**
-
-By this point, despite having enjoyed the process of taking the site to its 90% state, I was ready to move on. I had been dabbling in the Javascript and JQuery sections of the CI course and was getting very wrapped up in it. Brian had more good feedback for me, specific points that I could write up in a checklist and get through in a single morning.
+By this point, despite having enjoyed the process of taking the site to its 90% state, I was ready to move on. I had been dabbling in the Javascript and JQuery sections of the CI course and was getting very wrapped up in it. On a second meeting, my mentor had more feedback for me, specific points that I could write up in a checklist and get through in a single morning.
 
 ## Value of the site
 
-**The primary offering** of this site is to share a conviction with a client who believes that social responsibility, entrepreneurial spirit and creativity need not be exclusive. There are indeed the Martin Shkreli's of the world, who would avoid our agency like the plague and good riddance. I am reminded of Derek Sivers (CD Baby founder, in his free ebook that he gave when you signed up with CD Baby a million years ago) who said, "Know who it is you want to exclude and commit to their exclusion wholeheartedly". I like that approach, as unfriendly as it initially sounds. It does provide an instant, practical clarity grounded in common sense insight.
+**The primary offering** of this site is to share a conviction with a client who believes that social responsibility, entrepreneurial spirit and creativity need not be exclusive. There are indeed the Martin Shkreli's of the world, who would avoid our agency like the plague and good riddance. I am reminded of Derek Sivers (CD Baby founder, in his free ebook that he gave when you signed up with CD Baby a million years ago) who said, "Know who it is you want to exclude and commit to their exclusion wholeheartedly". I like that approach, as unfriendly as it initially sounds. It does provide an instant clarity grounded in common sense insight.
 
 This is achieved first of all by the interactive, playful index page, which hints at you to interact right away. This, it is hoped, will keep the Bah Humbugs of the world out, to some extent.
 
@@ -48,7 +44,7 @@ Visually, the use of white space and contrast is a hint that we might be more "a
 
 ![redirect page](assets/imgs/wframe-imgs/redirect_end.png)
 
-**A secondary offering** of this site is to share a passion for the power of the written word and the image. The right client will be tantalised, titillated and sorely tempted to know what we would do with his or her business. They would have a feeling of, after the long and personal journey with their self-image with their work, finally finding a partner they could grow with towards a specific goal. They would have to restrain themselves from coming over to our office and wanting to sit in and take part in every minute of the process. They would instinctively feel their feedback is welcome and that our clear boundaries are presented comfortably and reasonably.
+**A secondary offering** of this site is to share a passion for the power of the written word and the image. The right client will be tantalised, titillated and sorely tempted to know what we would do with his or her business. They would have a feeling of, after the long and personal journey with their self-image with their work, finally finding a partner they could grow with towards a specific goal. They would have to restrain themselves from coming over to our office and wanting to sit in and take part in every minute of the process. They would instinctively feel their feedback is welcome and that our boundaries are presented comfortably and reasonably.
 
 Again, this is best illustrated by referring to the textual content. While visual elements are very important in giving people a sense of creative promise, I think the emphasis on quality copy plays an important role for the right person.
 
@@ -62,19 +58,19 @@ This is accomplished by having an invitation to a weekly webinar on design and c
 
 ## Testing procedures
 
-I found this category of remarks counterintuitive, and therefore a good learning experience. Checking the live output of my IDE as I was going seemed the obvious primary testing procedure, but of course, I take CI's meaning to be something a bit deeper.
+I found this category of remarks counterintuitive to think of after the fact, and therefore a good learning experience. Checking the live output of my IDE as I was going seemed the obvious primary testing procedure, but of course, I take CI's meaning to be something a bit deeper.
 
 **Asking other people** whose opinion I respect was my primary testing procedure. I have some very talented designers and photographers as good friends, and I did often request their input. I would send them a live link in the early days of Gitpod, and then later on just the Pages link. (I still haven't found a VS extension that replicates what the "python3 -m http.server" command gives you when you make the link public. Very handy!)
 
 My friends were all wonderfully opinionated and clear in their feedback. Mostly they would encourage me to reduce and minimalise. The decision to completely remove the video media, especially, was encouraged by them. I often have an unsure feeling with web design that "more is always needed". My friends helped me be more decisive and committed to my minimalist leanings. Not least my mentor Brian, too.
 
-**Internet Explorer and Edge** are awful and I confess I didn't test anything with them by choice. I am new to the world of coding and I don't want to get discouraged, depressed or even infuriated. It does seem like lots of developers have been ignoring it the last few years. I drew some comfort, especially, from the Tasty Syntax podcast episode "Potluck...is Safari the new IE11?..". A bit too deepgeek for me, but it was a relief to hear that many people just ignore IE/Edge.
+**Internet Explorer and Edge** are awful and I confess I didn't test anything with them by choice. I am new to the world of coding and I don't want to get discouraged, depressed or even infuriated. It does seem like lots of developers have been ignoring it the last few years. I drew some comfort, especially, from the Tasty Syntax podcast episode "Potluck...is Safari the new IE11?..". A bit too ultra-geek for me, but it was a relief to hear that many people just ignore IE/Edge.
 
 **Chrome and Firefox** on the other hand were amazing. I am using Visual Studio Code to work in, and the Live Server extension was routed primarily through Firefox. The developer tools in Firefox, if you are using Flexbox, are very helpful. Chrome is working on that functionality, it looks like, but it's very much there in Firefox. The Electrophile site was published on Git Pages about halfway through, so I have a Chrome browser tab on all the time that I cross-reference once in a while. I may route to Chrome when the time comes to use more JavaScript.
 
 **Speaking of VS Code** it has been a lot of fun learning how to use and customise. Although using VS Code, on the surface, doesn't sound like a testing procedure, the steps I went through to integrate it with GitHub made me a lot more aware of how Git works in practice. I ended up simply installing the GitHub desktop app, and that did everything I needed. The long and painful process of getting there, however, taught me what a pull request and a branch merge are. I lost some work in the process, which made me more careful with my commits as well as helped me develop a workflow that kept my eyes on the goal of whatever it was I was trying to accomplish. As obvious as that sounds, you can easily get lost in a rabbit hole when you are new to this, I think. At least I easily do.
 
-**The Am I Responsive** website was useful for my doubts, and it is wonderful that you can scroll on each screen. However, this screenshot always makes me laugh because it seems a bit over the top. I do respect the fact that responsiveness is imperative, and has been for some time now. I'm still trying to understand my tickled reaction to this picture. It makes me think of someone selling watches from a raincoat on a street corner, a bit lowbrow and flashy.
+**The Am I Responsive** website was useful for my doubts, and it is helpful that you can scroll on each screen. However, this screenshot always makes me laugh because it seems a bit over the top. I do respect the fact that responsiveness is imperative, and has been for some time now. I'm still trying to understand my tickled reaction to this picture. It makes me think of someone selling watches from a raincoat on a street corner, a bit lowbrow and flashy.
 
 ![Am I?](assets/imgs/wframe-imgs/responsive.png)
 
@@ -88,7 +84,7 @@ Lots and lots of challenges from the start.
 
 **Bootstrap**, which did not appeal to me. I didn't like the endless class names cluttering up my HTML, and I didn't like that I didn't know what was happening. It felt like cheating. I can see how someone could get good at it, make nice looking websites and still not learn CSS properly. I know that's venturing into the online troll world, and it's not intended as such. It's just how I felt about it, especially combined with feeling it was difficult to understand for me.
 
-**Flexbox and Grid** on the other hand, are marvellous and amazing. I spent more time on Flexbox than on Grid, but I think Grid might be a lot easier. These technologies impress me with the way they anticipate certain needs. As a new coder, I get lost with "can I align-self this...? Should I change the flex-basis or just add a width..?" but there are times when you appreciate what Flexbox can do for even little layout applications. The employee quote section, for instance, on the About page, left column, is a great example of this. I could not for the life of me get NAME on the left and PICTURE on the right. I tried a few kinds of 'margin: auto' and was just going into 'position: absolute' hell when I remembered that I could just group them under a single div and display the pair as flex. Wonderful. See left of the image below.
+**Flexbox and Grid** on the other hand, are marvellous. I spent more time on Flexbox than on Grid, but I think Grid might be a lot easier. These technologies impress me with the way they anticipate certain needs. As a new coder, I get lost with "can I align-self this...? Should I use flex-basis or just add a width..?" but there are times when you appreciate what Flexbox can do for even little layout applications. The employee quote section, for instance, on the About page, left column, is a great example of this. I could not for the life of me get NAME on the left and PICTURE on the right. I tried a few kinds of 'margin: auto' and was just going into 'position: absolute' hell when I remembered that I could just group them under a single div and display the pair as flex. Wonderful. See left of the image below.
 
 ![Employee section](assets/imgs/wframe-imgs/about_bttm_end.png)
 
@@ -96,11 +92,11 @@ Not to mention the fantastic flex-direction changes you have for responsive mode
 
 It's indeed arcane in some sense, but I am enjoying learning it.
 
-**When I did have videos** there was a real bother with getting them to respond. I researched it online, and some thoughtful person had uploaded a precise and concise walkthrough. You can see a link to that in my earlier first_README.md.
+**When I did have videos** there was a real bother with getting them to be responsive. I researched it online, and some thoughtful person had uploaded a precise and concise walkthrough. You can see a link to that in my earlier first_README.md.
 
 **On different screen sizes** the site keeps its character, mostly. There was one trade-off for content over visual continuity. Every page has a bulb that connects you to the next page, an alternative navigation of sorts. I like the prominence of the bulbs and their static positioning. On mobile and tablet views, the positioning is consistent except for the media page, where the bulb is lower in the scroll space. I decided on this compromise because the moth image with its headline is a welcome contrast and maybe a bit more fun for a viewer. It can be irritating for a user when a small design element becomes emphasised over actual content, I think. The element becomes a gimmick and the content is downgraded.
 
-![media page](assets/imgs/wframe-imgs/media_end.png)
+![media page](assets/imgs/wframe-imgs/responsive.png)
 
 I left the bulb off the contact page for a similar reason. I had a watermark style bulb in the background for a short spell and it felt oppressive.
 
@@ -108,7 +104,7 @@ I left the bulb off the contact page for a similar reason. I had a watermark sty
 
 # Basic elements
 
-**The colour schemes** came from using Figma the first time and liking the grey default colours. I believe the grey I used is a touch darker or lighter than the Figma colour. Part of my initial intention in making this site is to do something I would normally never do. I like dark and moody colours, so I went for bright and energising. This grey was a good place to create contrasts with both blacks, whites and a deep grey-blue.
+**The colour schemes** came from using Figma the first time and liking the grey default colours. I believe the grey I used is a touch darker than the Figma colour. Part of my initial intention in making this site is to do something I would normally never do. I like dark and moody colours, so I went for bright and energising. This grey was a good place to create contrasts with both blacks, whites and a deep grey-blue.
 
 **The fonts** on the other hand were the result of much flicking through Google fonts in short sessions, over a few days. I ended up going with Roboto, as it's a fantastic sans-serif. I used Lekton, which is mostly a bit ugly, as the monotype for the nav ul. If you type anything more than a few words in it, it is offputting. In this usage, it adds a cool space-age feeling that's a touch Apple/NASA.
 
@@ -120,7 +116,7 @@ The barcode was something that I visually enjoyed the moment it popped up on my 
 
 It is the only link on the site that goes to the...
 
-**Dark bulb index page** where you started. I dabbled with the idea of having it say "click me" somewhere, but it felt a bit condescending. When you click it, you start a chain of pages, all of which have a light bulb in varying colour schemes. Each bulb links to the next section. When you click up at the logo, it redirects not to the dark index page, but to an alternate main page that has more cohesive heading text.
+**Dark bulb index page** where you started. I dabbled with the idea of having it say "click me" somewhere, but it felt a bit insulting. When you click it, you start a chain of pages, all of which have a light bulb in varying colour schemes. Each bulb links to the next section. When you click up at the logo, it redirects not to the dark index page, but to an alternate main page that has more cohesive heading text.
 
 **The images** I chose were taken from Google searches, using "large size" and "for public use" filtering. I then took them into Affinity Photo and cleaned them up. I used UV, black and white, sepia tone and custom filters to make different versions of each image. I then uploaded them to my VS Code project, comparing them in actual use. There was a certain tonality I was going for, you see it best on the media page.
 
@@ -144,7 +140,7 @@ However, at a decisive turning point, I grasped the character of this fictional 
 
 ## Overview of what I learned
 
-There were many stages I particularly enjoyed - working on the images and the text content especially. Web design is easier with strong image, font and content cohesion, I think. Some of the most useful steps in my process involved taking my time choosing the right visual elements.
+There were many stages I particularly enjoyed - working on the images and the text content especially. Web design is easier with image, font and content cohesion, I think. Some of the most useful steps in my process involved taking my time choosing the right visual elements.
 
 The areas that I felt the most challenged by were positioning things in CSS, as well as strategising layout and styling decisions to be in harmony with one another.
 
@@ -162,6 +158,6 @@ I have to admit that I had a very difficult time with much of the Code Institute
 
 I leaned heavily on [Kevin Powell's](https://www.kevinpowell.co/) lucid and accessible CSS lessons. Also [Scrimba](https://scrimba.com/).
 
-CI offers outstanding student support and the intelligent, friendly staff I have interacted with have been very encouraging. It is not my intention to disparage the many good things I see CI providing. I need a framework of study especially as things get more difficult now. I hope that an update to the didactic content happens soon enough that I may benefit from it, though. It is frustrating to now be moving forwards with learning JavaScript, learning from other online resources and using my CI study as a map rather than a central resource.
+CI offers outstanding student support and the intelligent, friendly staff I have interacted with have been very encouraging. I need a framework of study especially as things get more difficult now. I hope that an update to the didactic content happens soon enough that I may benefit from it, though. It is frustrating to now be moving forwards with learning JavaScript, learning from other online resources and using my CI study as a map rather than a central resource.
 
 ![goodbye](assets/imgs/lamp-bw-alt.jpg)
