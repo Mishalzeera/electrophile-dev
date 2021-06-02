@@ -2,7 +2,7 @@
 
 ![UV lamp](assets/imgs/lamp-uv.jpg)
 
-A website for a fictitious web and app development company. The company has a copywriting and design-first orientation, which is geared towards a clientele with a specific mentality. The client has an entrepreneurial spirit but has an aversion to business-speak-catchphrases. No "implementing strategic deployments using the emerging third world labour market", or ever using jargon like that.
+A website for a fictitious web and app development company. The company has a copywriting and design-first orientation, which is geared towards a clientele with a specific mentality. The client has an entrepreneurial spirit but has an aversion to business-speak-catchphrases. No "implementing strategic deployments using the emerging third world labour market" kind of talk. Despite that, a person well-versed in sound business sense.
 
 She or he has an innate sense of respect for their customers and, while being ambitious, is not specifically motivated by financial incentives. This is the type of business owner who would try to run on a sustainable model and who - beyond their basic needs and a holiday here and there - isn't out to make any killings.
 
@@ -154,7 +154,7 @@ Towards the end, I started using CSS variables, perhaps a bit late in the projec
 
 ## Thoughts on CI's HTML and CSS course
 
-I have to admit that I had a very difficult time with much of the Code Institute material. I can see there is some real knowledge and capability in the instructors and I am at a loss to understand why the lessons don't reflect that enough. I relied on other content, some of it paid, to move forwards. Especially considering that I wasn't in favour of using Bootstrap, I felt very much on my own. While I understand and agree that our study should be supplemented with our off-course research, there has already been far too much of that.
+I have to admit that I had a very difficult time with much of the Code Institute material. I can see there is some real knowledge and capability in the instructors and I am at a loss to understand why the lessons don't reflect that enough. I relied on other content, some of it paid, to move forwards. Especially considering that I wasn't in favour of using Bootstrap, I felt very much on my own. While I understand and agree that our study should be supplemented with our off-course research, there has already been too much of that.
 
 I leaned heavily on [Kevin Powell's](https://www.kevinpowell.co/) lucid and accessible CSS lessons. Also [Scrimba](https://scrimba.com/).
 
