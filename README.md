@@ -44,7 +44,7 @@ Visually, the use of white space and contrast is a hint that we might be more "a
 
 ![redirect page](assets/imgs/wframe-imgs/redirect_end.png)
 
-**A secondary offering** of this site is to share a passion for the power of the written word and the image. The right client will be tantalised, titillated and sorely tempted to know what we would do with his or her business. They would have a feeling of, after the long and personal journey with their self-image with their work, finally finding a partner they could grow with towards a specific goal. They would have to restrain themselves from coming over to our office and wanting to sit in and take part in every minute of the process. They would instinctively feel their feedback is welcome and that our boundaries are presented comfortably and reasonably.
+**A secondary offering** of this site is to share a passion for the power of the written word and the image. The right client will be tantalisedand sorely tempted to know what we would do with his or her business. They would have a feeling of, after the long and personal journey with their self-image with their work, finally finding a partner they could grow with towards a specific goal. They would have to restrain themselves from coming over to our office and wanting to sit in and take part in every minute of the process. They would instinctively feel their feedback is welcome and that our boundaries are presented comfortably and reasonably.
 
 Again, this is best illustrated by referring to the textual content. While visual elements are very important in giving people a sense of creative promise, I think the emphasis on quality copy plays an important role for the right person.
 
@@ -70,11 +70,11 @@ My friends were all wonderfully opinionated and clear in their feedback. Mostly 
 
 **Speaking of VS Code** it has been a lot of fun learning how to use and customise. Although using VS Code, on the surface, doesn't sound like a testing procedure, the steps I went through to integrate it with GitHub made me a lot more aware of how Git works in practice. I ended up simply installing the GitHub desktop app, and that did everything I needed. The long and painful process of getting there, however, taught me what a pull request and a branch merge are. I lost some work in the process, which made me more careful with my commits as well as helped me develop a workflow that kept my eyes on the goal of whatever it was I was trying to accomplish. As obvious as that sounds, you can easily get lost in a rabbit hole when you are new to this, I think. At least I easily do.
 
-**The Am I Responsive** website was useful for my doubts, and it is helpful that you can scroll on each screen. However, this screenshot always makes me laugh because it seems a bit over the top. I do respect the fact that responsiveness is imperative, and has been for some time now. I'm still trying to understand my tickled reaction to this picture. It makes me think of someone selling watches from a raincoat on a street corner, a bit lowbrow and flashy.
+**The Am I Responsive** website was useful for my doubts, and it is helpful that you can scroll on each screen.
 
 ![Am I?](assets/imgs/wframe-imgs/responsive.png)
 
-In all seriousness, it's a very handy testing tool and I am glad to have a link to it in my bookmarks bar. Maybe don't knock my grade down if it was your idea...?
+It's a very handy testing tool.
 
 ## Bugs and challenges
 
