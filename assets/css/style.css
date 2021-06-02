@@ -273,6 +273,7 @@ h1::before {
 .webinar-label {
   font-size: 0.8rem;
   margin: 0;
+  color: var(--body-light-colour);
 }
 
 .webinar-input {
